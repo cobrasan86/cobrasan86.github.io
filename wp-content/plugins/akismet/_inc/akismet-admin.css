@@ -73,7 +73,7 @@
 
 /* Need this specificity to override the existing link rule */
 #akismet-plugin-container a.akismet-masthead__back-link {
-	background-image: url(http://cobrasan86.github.io/wp-content/plugins/akismet/_inc/img/arrow-left.svg);
+	background-image: url(https://cobrasan86.github.io/wp-content/plugins/akismet/_inc/img/arrow-left.svg);
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: 16px;
