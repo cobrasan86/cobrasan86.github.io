@@ -1,0 +1,43 @@
+<table class="form-table button-options text" role="presentation">
+    <tbody>
+        <tr>
+            <th scope="row">{{labels.text_button_text}}</th>
+            <td>
+                <input type="text" v-model="data.text_button_text">
+                <help-icon :help-text="help.text_button_text "></help-icon>
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row">{{labels.text_button_text_color}}</th>
+            <td>
+                <color-picker v-model="data.text_button_text_color"></color-picker>
+                <help-icon :help-text="help.text_button_text_color"></help-icon>
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row">{{labels.text_button_background_color}}</th>
+            <td>
+                <color-picker v-model="data.text_button_background_color"></color-picker>
+                <help-icon :help-text="help.text_button_background_color"></help-icon>
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row">{{labels.text_button_hover_color}}</th>
+            <td>
+                <color-picker v-model="data.text_button_hover_color"></color-picker>
+                <help-icon :help-text="help.text_button_hover_color"></help-icon>
+            </td>
+        </tr>
+        
+        <tr>
+            <th scope="row">{{labels.text_button_css}}</th>
+            <td>
+                <textarea rows="5" cols="100" v-model="data.text_button_css"></textarea>
+                <help-icon :help-text="help.text_button_css"></help-icon>
+            </td>
+        </tr>
+    </tbody>
+</table>

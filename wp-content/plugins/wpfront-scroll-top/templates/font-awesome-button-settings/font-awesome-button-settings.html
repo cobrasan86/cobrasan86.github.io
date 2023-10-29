@@ -1,0 +1,39 @@
+<table class="form-table button-options font-awesome" role="presentation">
+    <tbody>
+        <tr>
+            <th scope="row">{{ labels.fa_button_class }}</th>
+            <td>
+                <input type="text" class="regular-text fa_button_class" v-model="data.fa_button_class">
+                <help-icon :help-text="help.fa_button_class"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.fa_button_URL }}</th>
+            <td>
+                <input type="text" class="regular-text url" v-model="data.fa_button_URL">
+                <help-icon :help-text="help.fa_button_URL"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.fa_button_exclude_URL }}</th>
+            <td>
+                <input type="checkbox" v-model="data.fa_button_exclude_URL">
+                <help-icon :help-text="help.fa_button_exclude_URL"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.fa_button_text_color }}</th>
+            <td>
+                <color-picker v-model="data.fa_button_text_color"></color-picker>
+                <help-icon :help-text="help.fa_button_text_color"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.fa_button_css }}</th>
+            <td>
+                <textarea rows="5" v-model="data.fa_button_css"></textarea>
+                <help-icon :help-text="help.fa_button_css"></help-icon>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,28 @@
+<table class="form-table" role="presentation">
+    <tbody>
+        <tr>
+            <th scope="row">{{ labels.display_pages }}</th>
+            <td>
+                <div>
+                    <label>
+                        <input type="radio" name="display_pages" :value="1" v-model="data.display_pages">{{ filter_options['1'] }}
+                    </label>  
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="display_pages" :value="2" v-model="data.display_pages">{{ filter_options['2'] }}
+                        <help-icon :help-text="help.include_in_pages"></help-icon>             
+                    </label> 
+                    <posts-filter-selection v-if="data.display_pages === 2" v-model="data.include_pages" :posts-list="filter_posts_list"></posts-filter-selection>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="display_pages" :value="3" v-model="data.display_pages">{{ filter_options['3'] }}
+                        <help-icon :help-text="help.exclude_in_pages"></help-icon>        
+                    </label> 
+                    <posts-filter-selection v-if="data.display_pages === 3" v-model="data.exclude_pages" :posts-list="filter_posts_list"></posts-filter-selection>
+                </div>              
+            </td>
+        </tr>
+    </tbody>
+</table>

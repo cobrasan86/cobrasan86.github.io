@@ -1,0 +1,122 @@
+#scroll-top-content i.help-icon {
+  font-size: 15px;
+  line-height: 1.5em;
+  opacity: 80%;
+}
+#scroll-top-content input.color-selector-input {
+  vertical-align: top;
+  height: 32px;
+  width: 7em;
+}
+input[type="text"].el-input__inner {
+  border: 0;
+  box-shadow: none;
+  outline: 0;
+}
+.el-color-picker__panel .el-color-predefine__color-selector {
+  height: 18px;
+}
+.el-color-picker__panel .el-color-predefine__color-selector div {
+  border: 1px solid #e4e7ed;
+}
+.el-color-picker__panel .el-color-dropdown__btns .el-button.is-text {
+  display: none;
+}
+.el-color-picker__panel input.el-input__inner {
+  min-height: 22px;
+}
+#scroll-top-content input.pixels {
+  width: 40px;
+}
+#scroll-top-content input.seconds {
+  width: 40px;
+}
+#scroll-top-content input.page-url {
+  width: 100%;
+  max-width: 650px;
+}
+#scroll-top-content .url,
+#scroll-top-content .fa_button_class,
+#scroll-top-content textarea {
+  width: 70%;
+}
+#scroll-top-content div.icons-container {
+  display: inline-block;
+  width: 100%;
+}
+#scroll-top-content div.icons-container div {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  min-width: 100px;
+  min-height: 80px;
+  zoom: 80%;
+}
+#scroll-top-content div.icons-container div.selected {
+  background-color: silver;
+}
+#scroll-top-content div.icons-container div:hover {
+  background-color: silver;
+}
+#scroll-top-content div.icons-container div input {
+  vertical-align: top;
+}
+#scroll-top-content table.form-table div.pages-selection {
+  width: 70%;
+  height: 150px;
+  background-color: #fff;
+  overflow: auto;
+  border: 1px solid #dfdfdf;
+  -moz-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+#scroll-top-content table.form-table div.page-div {
+  float: left;
+  width: 250px;
+  padding: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#scroll-top-content table.form-table input.post-id-list {
+  width: 70%;
+}
+@keyframes loading-animation {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+#scroll-top-content .loading p {
+  background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+  background-size: 400%;
+  animation: loading-animation 1s ease-in-out infinite;
+  color: transparent;
+  height: 1.5em;
+  width: 60%;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+#scroll-top-content .loading p:last-child {
+  width: 55%;
+}
+#scroll-top-content div.metabox-holder {
+  display: flow-root;
+}
+#scroll-top-content div.metabox-holder div#post-body-content {
+  position: relative;
+}
+#scroll-top-content div.metabox-holder div.postbox-container-right {
+  position: sticky;
+  top: 40px;
+}
+#scroll-top-content div.metabox-holder div.postbox-container-right div.notice.error {
+  display: block;
+  color: red;
+}
+#scroll-top-content th.deprecated {
+  opacity: 0.5;
+}

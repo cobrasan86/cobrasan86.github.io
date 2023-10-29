@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
 "Language: id\n"
 "Project-Id-Version: Themes - Twenty Twenty-One\n"
 
@@ -17,7 +17,7 @@ msgid "Twenty Twenty-One is a blank canvas for your ideas and it makes the block
 msgstr "Twenty Twenty-One adalah kanvas kosong bagi ide-ide Anda dan mengoptimalkan editor blok untuk Anda berkreasi. Dengan pola blok yang baru, memudahkan Anda membuat tata letak yang indah dengan cepat, warna yang teduh dan menarik pada tema ini -- namun dengan desain yang abadi -- akan membuat pekerjaan Anda berkilau. Cobalah! Lihatlah bagaimana Twenty Twenty-One mengoptimalkan portofolio Anda, situs web bisnis, atau blog pribadi."
 
 #. Theme Name of the theme
-#: classes/class-twenty-twenty-one-dark-mode.php:381 inc/block-patterns.php:24
+#: classes/class-twenty-twenty-one-dark-mode.php:385 inc/block-patterns.php:24
 #, gp-priority: high
 msgid "Twenty Twenty-One"
 msgstr "Twenty Twenty-One"
@@ -39,15 +39,15 @@ msgstr "Mode Gelap merupakan pengaturan perangkat. Jika pengunjung Anda mengingi
 msgid "Dark Mode can also be turned on and off with a button that you can find in the bottom corner of the page."
 msgstr "Mode Gelap dapat diaktifan dan non-aktifkan dengan sebuah tombol yang dapat Anda temukan di pojok bawah halaman."
 
-#: classes/class-twenty-twenty-one-dark-mode.php:380
+#: classes/class-twenty-twenty-one-dark-mode.php:384
 msgid "This website uses LocalStorage to save the setting when Dark Mode support is turned on or off.<br> LocalStorage is necessary for the setting to work and is only used when a user clicks on the Dark Mode button.<br> No data is saved in the database or transferred."
 msgstr "Situs web ini menggunakan LocalStorage untuk menyimpan pengaturan ketika fitur Mode Gelap diaktifkan atau non-akifkan.<br> LocalStorage penting untuk mengaktifkan pengaturan dan hanya aktif jika pengguna mengklik tombol Mode Gelap.<br> Tidak ada data disimpan atau dikirim ke basis data."
 
-#: classes/class-twenty-twenty-one-dark-mode.php:379
+#: classes/class-twenty-twenty-one-dark-mode.php:383
 msgid "Suggested text:"
 msgstr "Teks yang disarankan:"
 
-#: classes/class-twenty-twenty-one-dark-mode.php:378
+#: classes/class-twenty-twenty-one-dark-mode.php:382
 msgid "Twenty Twenty-One uses LocalStorage when Dark Mode support is enabled."
 msgstr "Twenty Twenty-One menggunakan LocalStorage ketika fitur Mode Gelap diaktifkan."
 
@@ -124,37 +124,37 @@ msgstr "Tema ini mewajibkan WordPress 5.3 atau lebih baru. Anda menggunakan vers
 msgid "Page %"
 msgstr "Halaman %"
 
-#: functions.php:187
+#: functions.php:180
 msgctxt "Font size"
 msgid "XXXL"
 msgstr "XXXL"
 
-#: functions.php:181
+#: functions.php:174
 msgctxt "Font size"
 msgid "XXL"
 msgstr "XXL"
 
-#: functions.php:175
+#: functions.php:168
 msgctxt "Font size"
 msgid "XL"
 msgstr "XL"
 
-#: functions.php:169
+#: functions.php:162
 msgctxt "Font size"
 msgid "L"
 msgstr "L"
 
-#: functions.php:163
+#: functions.php:156
 msgctxt "Font size"
 msgid "M"
 msgstr "M"
 
-#: functions.php:157
+#: functions.php:150
 msgctxt "Font size"
 msgid "S"
 msgstr "S"
 
-#: functions.php:151
+#: functions.php:144
 msgctxt "Font size"
 msgid "XS"
 msgstr "XS"
@@ -175,16 +175,16 @@ msgstr[1] "%s komentar"
 msgid "1 comment"
 msgstr "1 komentar"
 
-#: classes/class-twenty-twenty-one-dark-mode.php:334
+#: classes/class-twenty-twenty-one-dark-mode.php:338
 msgid "On"
 msgstr "Aktif"
 
-#: classes/class-twenty-twenty-one-dark-mode.php:331
+#: classes/class-twenty-twenty-one-dark-mode.php:335
 msgid "Off"
 msgstr "Nonaktif"
 
 #. translators: %s: On/Off
-#: classes/class-twenty-twenty-one-dark-mode.php:321
+#: classes/class-twenty-twenty-one-dark-mode.php:325
 msgid "Dark Mode: %s"
 msgstr "Mode Gelap: %s"
 
@@ -363,7 +363,7 @@ msgid "Results for \"%s\""
 msgstr "Hasil untuk \"%s\""
 
 #. translators: Used between list items, there is a space after the comma.
-#: functions.php:654
+#: functions.php:650
 msgid ", "
 msgstr ", "
 
@@ -449,16 +449,16 @@ msgstr "Tutup"
 msgid "Menu"
 msgstr "Menu"
 
-#: functions.php:76 inc/starter-content.php:154
+#: functions.php:69 inc/starter-content.php:154
 #: template-parts/header/site-nav.php:13
 msgid "Primary menu"
 msgstr "Menu utama"
 
-#: functions.php:162
+#: functions.php:155
 msgid "Normal"
 msgstr "Normal"
 
-#: functions.php:156
+#: functions.php:149
 msgid "Small"
 msgstr "Kecil"
 
@@ -483,87 +483,87 @@ msgstr "Teks penuh"
 msgid "Proudly powered by %s."
 msgstr "Dengan bangga menggunakan %s"
 
-#: footer.php:24 functions.php:77 inc/starter-content.php:165
+#: footer.php:24 functions.php:70 inc/starter-content.php:165
 msgid "Secondary menu"
 msgstr "Menu sekunder"
 
-#: functions.php:263
+#: functions.php:256
 msgid "White"
 msgstr "Putih"
 
-#: functions.php:258
+#: functions.php:251
 msgid "Yellow"
 msgstr "Kuning"
 
-#: functions.php:248
+#: functions.php:241
 msgid "Red"
 msgstr "Merah"
 
-#: functions.php:243
+#: functions.php:236
 msgid "Purple"
 msgstr "Ungu"
 
-#: functions.php:238
+#: functions.php:231
 msgid "Blue"
 msgstr "Biru"
 
-#: functions.php:233
+#: functions.php:226
 msgid "Green"
 msgstr "Hijau"
 
-#: functions.php:218
+#: functions.php:211
 msgid "Black"
 msgstr "Hitam"
 
-#: functions.php:186
+#: functions.php:179
 msgid "Gigantic"
 msgstr "Amat Sangat Besar"
 
-#: functions.php:180
+#: functions.php:173
 msgid "Huge"
 msgstr "Besar Sekali"
 
-#: functions.php:174
+#: functions.php:167
 msgid "Extra large"
 msgstr "Ekstra besar"
 
-#: functions.php:168
+#: functions.php:161
 msgid "Large"
 msgstr "Besar"
 
-#: functions.php:150
+#: functions.php:143
 msgid "Extra small"
 msgstr "Ekstra kecil"
 
-#: functions.php:361
+#: functions.php:354
 msgid "Footer"
 msgstr "Footer"
 
-#: functions.php:304
+#: functions.php:297
 msgid "Purple to red"
 msgstr "Ungu ke merah"
 
-#: functions.php:309
+#: functions.php:302
 msgid "Red to purple"
 msgstr "Merah ke ungu"
 
-#: functions.php:299
+#: functions.php:292
 msgid "Yellow to red"
 msgstr "Kuning ke merah"
 
-#: functions.php:294
+#: functions.php:287
 msgid "Red to yellow"
 msgstr "Merah ke kuning"
 
-#: functions.php:289
+#: functions.php:282
 msgid "Yellow to green"
 msgstr "Kuning ke hijau"
 
-#: functions.php:284
+#: functions.php:277
 msgid "Green to yellow"
 msgstr "Hijau ke kuning"
 
-#: functions.php:279
+#: functions.php:272
 msgid "Yellow to purple"
 msgstr "Kuning ke ungu"
 
@@ -609,19 +609,19 @@ msgstr "Tidak ditemukan apapun di sini. Silakan gunakan pencarian."
 msgid "Nothing here"
 msgstr "Tidak ditemukan apa pun di sini"
 
-#: functions.php:253
+#: functions.php:246
 msgid "Orange"
 msgstr "Oranye"
 
-#: functions.php:228
+#: functions.php:221
 msgid "Gray"
 msgstr "Abu-abu"
 
-#: functions.php:223 inc/block-styles.php:107
+#: functions.php:216 inc/block-styles.php:107
 msgid "Dark gray"
 msgstr "Abu-abu gelap"
 
-#: functions.php:363
+#: functions.php:356
 msgid "Add widgets here to appear in your footer."
 msgstr "Tambah widget di sini untuk menampilkannya di footer Anda."
 
@@ -638,7 +638,7 @@ msgstr "Tema standar portofolio baru untuk WordPress"
 msgid "Next post"
 msgstr "Artikel selanjutnya"
 
-#: functions.php:274
+#: functions.php:267
 msgid "Purple to yellow"
 msgstr "Ungu ke kuning"
 

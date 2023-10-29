@@ -1,0 +1,29 @@
+<table class="form-table" role="presentation">
+    <tbody>
+        <tr>
+            <th scope="row">{{ labels.location }}</th>
+            <td>
+                <select v-model="data.location">
+                    <option v-for="(display, value) in location_options" :value="value">{{ display }}</option>
+                </select>
+                <help-icon :help-text="help.location"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.marginX }}</th>
+            <td>
+                <input type="text" class="small-text pixels" v-model="data.marginX">
+                <span>px</span>
+                <help-icon :help-text="help.marginX"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.marginY }}</th>
+            <td>
+                <input type="text" class="small-text pixels" v-model="data.marginY">
+                <span>px</span>
+                <help-icon :help-text="help.marginY"></help-icon>
+            </td>
+        </tr>
+    </tbody>
+</table>

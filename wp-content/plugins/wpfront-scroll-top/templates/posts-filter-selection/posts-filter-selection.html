@@ -1,0 +1,10 @@
+<div>
+    <input class="post-id-list" type="text" :value="modelValue" @input="$emit('update:modelValue', $event.target.value)">
+    <div class="pages-selection">
+        <div class="page-div" v-for="(display, value) in postsList">
+            <label>
+                <input type="checkbox" :value="value" v-model="selectedPosts">{{ display }}
+            </label>
+        </div>
+    </div>   
+</div>

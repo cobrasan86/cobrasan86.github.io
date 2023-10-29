@@ -111,7 +111,7 @@
 	#nav-bar {
 		background: none;
 		position: absolute;
-		top: 24px; right: 24px;
+		top: 100px; right: 100px;
 	}
 	#navigation {
 		display: none !important;

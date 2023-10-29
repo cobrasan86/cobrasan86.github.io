@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Komentar untuk Cobrasan86 | Rizky Hananta	</title>
-	<atom:link href="https://cobrasan86.github.io/index.php/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cobrasan86.github.io/</link>
-	<description>r</description>
-	<lastBuildDate>Fri, 08 Sep 2023 13:08:33 +0000</lastBuildDate>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Smart Endpoints and Dumb Pipes</description>
+	<lastBuildDate>Sun, 29 Oct 2023 14:44:04 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3.1</generator>
+	<generator>https://wordpress.org/?v=6.3.2</generator>
 </channel>
 </rss>

@@ -1,0 +1,123 @@
+<table class="form-table" role="presentation">
+    <tbody>
+        <tr>
+            <th scope="row">{{ labels.enabled }}</th>
+            <td>
+                <input type="checkbox" v-model="data.enabled">
+                <help-icon :help-text="help.enabled"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.javascript_async }}</th>
+            <td>
+                <input type="checkbox" v-model="data.javascript_async">
+                <help-icon :help-text="help.javascript_async"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.scroll_offset }}</th>
+            <td>
+                <input type="text" class="small-text pixels" v-model="data.scroll_offset">px
+                <help-icon :help-text="help.scroll_offset"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.button_size }}</th>
+            <td>
+                <input type="text" class="small-text pixels" v-model="data.button_width">px
+                X
+                <input type="text" class="small-text pixels" v-model="data.button_height">px
+                <help-icon :help-text="help.button_size"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.button_opacity }}</th>
+            <td>
+                <input type="text" class="small-text seconds" v-model="data.button_opacity">%
+                <help-icon :help-text="help.button_opacity"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.button_fade_duration }}</th>
+            <td>
+                <input type="text" class="small-text seconds" v-model="data.button_fade_duration">ms
+                <help-icon :help-text="help.button_fade_duration"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.scroll_duration }}</th>
+            <td>
+                <input type="text" class="small-text seconds" v-model="data.scroll_duration">ms
+                <help-icon :help-text="help.scroll_duration"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.auto_hide }}</th>
+            <td>
+                <input type="checkbox" v-model="data.auto_hide">
+                <help-icon :help-text="help.auto_hide"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{ labels.auto_hide_after }}</th>
+            <td>
+                <input type="text" class="small-text seconds" v-model="data.auto_hide_after">sec
+                <help-icon :help-text="help.auto_hide_after"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" class="deprecated">{{labels.hide_small_device}} </th>
+            <td>
+                <input type="checkbox" v-model="data.hide_small_device">
+                <help-icon :help-text="help.hide_small_device"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" class="deprecated">{{labels.small_device_width}} </th>
+            <td>
+                <input type="text" class="small-text pixels" v-model="data.small_device_width">px
+                <help-icon :help-text="help.small_device_width"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{labels.hide_small_window}}</th>
+            <td>
+                <input type="checkbox" v-model="data.hide_small_window">
+                <help-icon :help-text="help.hide_small_window"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{labels.small_window_width}}</th>
+            <td>
+                <input type="text" class="small-text pixels" v-model="data.small_window_width">px
+                <help-icon :help-text="help.small_window_width"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{labels.hide_wpadmin}}</th>
+            <td>
+                <input type="checkbox" v-model="data.hide_wpadmin">
+                <help-icon :help-text="help.hide_wpadmin"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{labels.hide_iframe}}</th>
+            <td>
+                <input type="checkbox" v-model="data.hide_iframe">
+                <help-icon :help-text="help.hide_iframe"></help-icon>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">{{labels.button_style}}</th>
+            <td>
+                <div v-for="(display, value) in button_style_options">
+                    <label>
+                        <input type="radio" :value="value" v-model="data.button_style">{{ display }}
+                        <help-icon :help-text="help['button_style_options' + '_' + value]"></help-icon>
+                    </label>        
+                </div>
+            </td>
+        </tr>
+        <tr is="vue:button-action-settings"></tr>
+    </tbody>
+</table>

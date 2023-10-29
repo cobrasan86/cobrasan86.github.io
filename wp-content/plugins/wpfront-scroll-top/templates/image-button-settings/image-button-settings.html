@@ -1,0 +1,36 @@
+<div class="button-options image">
+    <div class="icons-container">
+        <div v-for="(url, name) in icons_list" :class="{ selected: data.image === name }">
+            <input :id="name" name="wpfront-scroll-top-options-image" type="radio" :value="name" v-model="data.image">
+            <label :for="name">
+                <img :src="url" :alt="name">
+            </label>
+        </div>
+    </div>
+    <div>
+        <input id="custom" name="wpfront-scroll-top-options-image" type="radio" value="custom" v-model="data.image">
+        <label for="custom">
+            {{ labels.custom_url }} 
+            <input type="url" class="regular-text url" v-model="data.custom_url">
+            <input type="button" class="button" :value="labels.media_library_button" @click="mediaLibrary()">
+        </label>
+    </div>
+    <table class="form-table" role="presentation">
+        <tbody>
+            <tr>
+                <th scope="row">{{ labels.image_alt }} </th>
+                <td>
+                    <input type="text" class="regular-text altText" v-model="data.image_alt">
+                    <help-icon :help-text="help.image_alt"></help-icon>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">{{ labels.image_title }} </th>
+                <td>
+                    <input type="text" class="regular-text titleText" v-model="data.image_title">
+                    <help-icon :help-text="help.image_title"></help-icon>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

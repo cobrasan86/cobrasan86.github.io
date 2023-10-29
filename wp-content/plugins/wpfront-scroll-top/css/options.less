@@ -1,0 +1,60 @@
+@import "../templates/help-icon/help-icon.less";
+@import "../templates/color-picker/color-picker.less";
+@import "../templates/display-settings/display-settings.less";
+@import "../templates/font-awesome-button-settings/font-awesome-button-settings.less";
+@import "../templates/image-button-settings/image-button-settings.less";
+@import "../templates/posts-filter-selection/posts-filter-selection.less";
+
+#scroll-top-content {
+
+    @keyframes loading-animation {
+        0% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0 50%;
+        }
+    }
+
+    .loading p {
+        background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);
+        background-size: 400%;
+        animation: loading-animation 1s ease-in-out infinite;
+        color: transparent;
+        height: 1.5em;
+        width: 60%;
+        margin: 0;
+        margin-bottom: .5em;
+    }
+  
+    .loading p:last-child {
+        width: 55%;
+    }
+    
+    div.metabox-holder {
+        display: flow-root;
+
+        div#post-body-content {
+            position: relative;
+        }
+
+        div.postbox-container-right {
+            position: sticky;
+            top: 40px;
+
+            div.notice.error {
+                display: block;
+                color: red;
+            }
+        }
+
+    }
+
+    th {
+        &.deprecated {
+            opacity: 0.5;
+        }
+    }
+
+}
