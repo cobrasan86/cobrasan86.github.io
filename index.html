@@ -1,693 +1,2042 @@
 <!DOCTYPE html>
 <html class="no-js" lang="id">
+  <head>
+    <!-- TAMBAHAN TOP NAV MENU -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-<head>
-<!-- TAMBAHAN TOP NAV MENU -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+      .topnav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #15202b;
+        z-index: 100;
+      }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
 
-}
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+      .topnav a.active {
+        background-color: #00cc99;
+        color: white;
+      }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+      .topnav .icon {
+        display: none;
+      }
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-</style>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-
-	<title>Cobrasan86 | Rizky Hananta &#8211; Smart Endpoints and Dumb Pipes</title>
-<meta name="robots" content="max-image-preview:large">
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="alternate" type="application/rss+xml" title="Cobrasan86 | Rizky Hananta &raquo; Feed" href="./index.php/feed/index.html">
-<link rel="alternate" type="application/rss+xml" title="Cobrasan86 | Rizky Hananta &raquo; Umpan Komentar" href="./index.php/comments/feed/index.html">
-<script type="text/javascript">
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":".\/\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.2"}};
-/*! This file is auto-generated */
-!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🫱🏻‍🫲🏿","🫱🏻​🫲🏿")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
-</script>
-<style type="text/css">img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 0.07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}</style>
-	<link rel="stylesheet" id="wp-block-library-css" href="./wp-includes/css/dist/block-library/style.min.css?ver=6.3.2" type="text/css" media="all">
-<style id="wp-block-library-theme-inline-css" type="text/css">.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}</style>
-<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
-<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
-:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
-.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
-<link rel="stylesheet" id="profile-lite-style-css" href="./wp-content/themes/profile-lite/style.css?ver=1.0" type="text/css" media="all">
-<link rel="stylesheet" id="profile-lite-style-conditionals-css" href="./wp-content/themes/profile-lite/css/style-conditionals.css?ver=1.0" type="text/css" media="all">
-<link rel="stylesheet" id="profile-lite-style-mobile-css" href="./wp-content/themes/profile-lite/css/style-mobile.css?ver=1.0" type="text/css" media="all">
-<link rel="stylesheet" id="profile-lite-font-awesome-css" href="./wp-content/themes/profile-lite/css/font-awesome.css?ver=1.0" type="text/css" media="all">
-<link rel="stylesheet" id="profile-lite-fonts-css" href="//fonts.googleapis.com/css?family=Raleway%3A400%2C200%2C300%2C800%2C700%2C500%2C600%2C900%2C100%7CRoboto%3A300%2C300i%2C400%2C400i%2C700%2C700i%7CRoboto+Slab%3A300%2C400%2C700%7CRoboto+Slab%3A300%2C400%2C700&#038;subset=latin%2Clatin-ext&#038;ver=1.0" type="text/css" media="all">
-<script type="text/javascript" src="./wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
-<script type="text/javascript" src="./wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script type="text/javascript" src="./wp-content/themes/profile-lite/js/topbutton.js?ver=6.3.2" id="custom-script-js"></script>
-<link rel="https://api.w.org/" href="./index.php/wp-json/index.html">
-<link rel="alternate" type="application/json" href="./index.php/wp-json/wp/v2/pages/7/index.html">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./xmlrpc.php?rsd">
-<meta name="generator" content="WordPress 6.3.2">
-<link rel="canonical" href="./index.html">
-<link rel="shortlink" href="./index.html">
-<link rel="alternate" type="application/json+oembed" href="./index.php/wp-json/oembed/1.0/embed/index.html?url=http%3A%2F%2F%2F">
-<link rel="alternate" type="text/xml+oembed" href="./index.php/wp-json/oembed/1.0/embed/index.html?url=http%3A%2F%2F%2F#038;format=xml">
-
-	<style>#custom-header {
-			background-image: url('./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers.png');
-		}
-	
-
-	#wrapper .site-logo,
-	#wrapper #custom-header::after {
-		background-color: #f9f9f9 ;
-	}
-
-	#wrapper .site-title {
-			}
-
-	#wrapper .site-description {
-		position: absolute; left: -9999px; margin: 0px; padding: 0px;	}</style>
-
-			<style type="text/css" id="wp-custom-css">.topbutton {
-     height:50px;
-     width:50px;
-     position:fixed;
-     right:5px;
-     bottom:5px;
-     Z-index:1;
-     background-image:url("./wp-content/uploads/2023/09/up.png");
-     background-repeat:no-repeat;
-     display:none;
-}
-
-
-.text-container {
-            border: 2px solid #000;
-            padding: 10px;
-            width: fit-content;
-            display: inline-block;
-            border-radius: 10px;
+      @media screen and (max-width: 600px) {
+        .topnav a:not(:first-child) {
+          display: none;
         }
-
-        .small-text {
-             font-size: 12px;
-            border: 1px solid #000;
-            padding: 5px;
-            position: absolute;
-            border-radius: 20px;
-            background-color: #333C46; 
-        }</style>
-		
-</head>
-
-<body class="home page-template-default page page-id-7 wp-custom-logo wp-embed-responsive profile-has-logo profile-desc-active profile-has-social-menu profile-no-img profile-header-active profile-header-video-inactive profile-singular profile-sidebar-inactive">
-<div class="topnav" id="myTopnav">
-  <a href="#awal" class="active">Home</a>
-  <a href="#skills">Skills</a>
-  <a href="#pengalaman">Pengalaman</a>
-  <a href="#pendidikan">Pendidikan</a>
-  <a href="#sertif">Sertifikat</a>
-  <a href="#project">Project</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-
-<!-- BEGIN #wrapper -->
-<div id="wrapper">
-
-	<!-- BEGIN #header -->
-	<header id="header">
-
-		<!-- BEGIN #header-info -->
-		<div id="header-info">
-
-			<div class="site-info" data-aos="zoom-out" data-aos-duration="3000">
-									<h1 class="site-title">
-						<a href="./index.html" rel="home">Cobrasan86 | Rizky Hananta</a>
-					</h1>
-				
-			</div>
-
-			<!-- BEGIN #nav-bar -->
-			<div id="nav-bar">
-
-			
-			<!-- END #nav-bar -->
-			</div>
-
-		<!-- END #header-info -->
-		</div>
-
-		
-		
-			<!-- BEGIN #custom-header -->
-			<div id="custom-header">
-
-				<!-- BEGIN .row -->
-				<div class="row">
-
-					
-					<div id="wp-custom-header" class="wp-custom-header"><img src="./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers.png" width="1918" height="1080" alt="" decoding="async" srcset="./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers.png 1918w, ./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers-300x169.png 300w, ./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers-1024x577.png 1024w, ./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers-768x432.png 768w, ./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers-1536x865.png 1536w, ./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers-1200x676.png 1200w" sizes="(max-width: 1918px) 100vw, 1918px" fetchpriority="high"></div>
-				<!-- END .row -->
-				</div>
-
-			<!-- END #custom-header -->
-			</div>
-
-			
-			<!-- BEGIN .site-logo -->
-			<div class="site-logo">
-
-				
-<style>.custom-logo {
-	height: 212px;
-	max-height: 300px;
-	max-width: 300px;
-	width: 212px;
-}</style>
-<a href="./index.html" class="custom-logo-link" rel="home" aria-current="page"><img data-aos="zoom-in" data-aos-duration="3000" width="1640" height="1640" src="./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1.png" class="custom-logo" alt="Cobrasan86 | Rizky Hananta" decoding="async" srcset="./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1.png 1640w, ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-300x300.png 300w, ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-1024x1024.png 1024w, ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-150x150.png 150w, ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-768x768.png 768w, ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-1536x1536.png 1536w, ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-1200x1200.png 1200w" sizes="(max-width: 1640px) 100vw, 1640px"></a>
-				
-				<nav role="navigation" aria-label="Social Navigation">
-
-					<div class="social-menu" ><ul id="menu-sosmed" class="social-icons circle-container">
-<li data-aos="zoom-in" data-aos-duration="3000" id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133"><a target="newtab" href="https://www.youtube.com/channel/UC_ZbVznQZdP-sqoCyPo9jSw"><span class="screen-reader-text">Sobat Tekno Channel</span></a></li>
-<li data-aos="zoom-in" data-aos-duration="4000" id="menu-item-135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135"><a target="newtab" href="https://www.linkedin.com/in/rizkyhananta99/"><span class="screen-reader-text">LinkedIn</span></a></li>
-<li data-aos="zoom-in" data-aos-duration="5000" id="menu-item-137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137"><a target="newtab" href="https://github.com/cobrasan86"><span class="screen-reader-text">Github</span></a></li>
-<li data-aos="zoom-in" data-aos-duration="6000" id="menu-item-304" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-304"><a href="mailto:rizkyhananta99@gmail.com"><span class="screen-reader-text">Email</span></a></li>
-<li data-aos="zoom-in" data-aos-duration="7000" id="menu-item-306" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-306"><a target="newtab" href="https://wa.me/6285879791766"><span class="screen-reader-text">WA</span></a></li>
-</ul></div>
-				</nav>
-
-				
-			<!-- END .site-logo -->
-			</div>
-
-			
-		
-	<!-- END #header -->
-	</header>
-
-	<!-- BEGIN .container -->
-	<main class="container" role="main">
-
-<!-- BEGIN .post class -->
-<div class="post-7 page type-page status-publish hentry" id="page-7">
-
-	
-
-
-	<!-- BEGIN .row -->
-	<div class="row">
-
-		<!-- BEGIN .content -->
-		<div class="content">
-
-		
-			<!-- BEGIN .sixteen columns -->
-			<section class="sixteen columns">
-
-				
-
-
-	<!-- BEGIN .entry-content -->
-	<article class="entry-content">
-
-		
-		
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"><div class="wp-block-group__inner-container">
-<div class="wp-block-columns is-layout-flex wp-container-2 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%" id="awal">
-<blockquote class="wp-block-quote is-style-plain">
-<p class="has-text-align-center has-large-font-size" style="font-style:normal;font-weight:800;text-transform:uppercase" class="site-info" data-aos="fade-right" data-aos-duration="1000">Smart Endpoints and Dumb Pipes</p>
-
-
-
-<hr class="wp-block-separator has-text-color has-vivid-red-color has-alpha-channel-opacity has-vivid-red-background-color has-background is-style-dots">
-</blockquote>
-
-
-
-<h3 data-aos="fade-left" data-aos-duration="1000">Ringkasan</h3>
-<hr data-aos="fade-left" data-aos-duration="1000">
-<p data-aos="fade-up" data-aos-duration="1000" align="justify">Lulusan S1-Teknik Informatika dari Universitas Semarang dengan IPK 3.94 yang memiliki minat dan antusiasme tinggi dalam bidang DevOps, Networking dan Linux. Memiliki kemampuan mengoperasikan Sistem Operasi Linux, administrasi sistem dengan Sistem Operasi Linux, melakukan instalasi dan konfigurasi jaringan komputer, implementasi pengembangan sistem berbasis DevOps seperti implementasi CI/CD dan Membangun arsitektur microservices, mampu melakukan maintenance sistem, monitoring dan logging sistem, mampu menganalisa dan pemecahan masalah IT. Saat ini juga menjadi content creator pada Channel YouTube pribadi di Channel Sobat Tekno Channel.
-</p>
-</div>
-</div>
-</div></div>
-
-
-
-<hr class="wp-block-separator has-text-color has-vivid-red-color has-alpha-channel-opacity has-vivid-red-background-color has-background is-style-dots">
-
-
-
-<h3 class="wp-block-heading" id="skills" data-aos="fade-left" data-aos-duration="1000">Skills</h3>
-
-<hr data-aos="fade-left" data-aos-duration="1000" class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-
-
-
-<details data-aos="zoom-in-left" data-aos-duration="1000" class="wp-block-details" open><summary>Hard Skills</summary>
-<div class="wp-block-columns is-layout-flex wp-container-7 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<ul>
-<li>Kubernetes</li>
-<li>Linux</li>
-<li>Docker</li>
-<li>Jenkins</li>
-
-</ul>
-</div>
-
-
-
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<ul>
-<li>AWS</li>
-<li>Ansible</li>
-<li>Python</li>
-<li>Go Lang</li>
-</ul>
-</div>
-
-
-
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<ul>
-<li>Git</li>
-<li>Bash Scripting</li>
-<li>Computer Networking</li>
-<li>Monitoring and Loggin</li>
-</ul>
-</div>
-</div>
-</details>
-
-
-
-<hr data-aos="zoom-in" data-aos-duration="1000" class="wp-block-separator has-alpha-channel-opacity">
-
-
-
-<details data-aos="zoom-in-right" data-aos-duration="1000" class="wp-block-details" open><summary>Soft Skills</summary>
-<div class="wp-block-columns is-layout-flex wp-container-11 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<ul>
-<li>Project Scheduling</li>
-<li>Communication</li>
-<li>Presentation</li>
-</ul>
-</div>
-
-
-
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<ul>
-<li>Problem analysis</li>
-<li>Problem Solving</li>
-<li>Collaboration</li>
-</ul>
-</div>
-
-
-
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<ul>
-<li>Time Management</li>
-<li>Innovative</li>
-<li>Creative</li>
-</ul>
-</div>
-</div>
-</details>
-
-
-
-<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-columns is-layout-flex wp-container-13 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<h3 class="wp-block-heading" id="pengalaman" data-aos="fade-left" data-aos-duration="1000" >Pengalaman</h3>
-
-
-
-<hr data-aos="fade-left" data-aos-duration="1000" class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-
-
-
-<div data-aos="fade-up" data-aos-duration="1000" class="wp-block-media-text is-vertically-aligned-center" style="grid-template-columns:15% auto">
-<figure class="wp-block-media-text__media"><img decoding="async" width="512" height="512" src="./wp-content/uploads/2023/10/bawaslu.png" alt="" class="wp-image-231 size-full" srcset="./wp-content/uploads/2023/10/bawaslu.png 512w, ./wp-content/uploads/2023/10/bawaslu-300x300.png 300w, ./wp-content/uploads/2023/10/bawaslu-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"></figure><div class="wp-block-media-text__content">
-<b>Website Administrator Intern ● Bawaslu Kota Semarang<br> Maret 2021 &#8211; Mei 2021</b>
-<ul>
-<li>Melakukan update tampilan pada website</li>
-<li>Menambahkan beberapa halaman baru pada website</li>
-</ul>
-</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-default">
-
-
-
-<div data-aos="fade-up" data-aos-duration="1000" class="wp-block-media-text is-vertically-aligned-center" style="grid-template-columns:15% auto">
-<figure class="wp-block-media-text__media"><img decoding="async" width="774" height="1024" src="./wp-content/uploads/2023/10/upgirs-774x1024.png" alt="" class="wp-image-249 size-full" srcset="./wp-content/uploads/2023/10/upgirs-774x1024.png 774w, ./wp-content/uploads/2023/10/upgirs-227x300.png 227w, ./wp-content/uploads/2023/10/upgirs-768x1016.png 768w, ./wp-content/uploads/2023/10/upgirs-907x1200.png 907w, ./wp-content/uploads/2023/10/upgirs.png 1116w" sizes="(max-width: 774px) 100vw, 774px"></figure><div class="wp-block-media-text__content">
-<b>Network Engineer Intern ● Universitas PGRI Semarang<br> Mei 2018 &#8211; Juli 2018</b>
-<ul>
-<li>Instalasi jaringan kabel dan nirkabel</li>
-<li>Troubleshooting jaringan kabel dan nirkabel</li>
-<li>Perawatan jaringan komputer</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-
-
-
-<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-columns is-layout-flex wp-container-15 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<h3 data-aos="fade-left" data-aos-duration="1000" class="wp-block-heading" id="pendidikan">Pendidikan</h3>
-
-
-
-<hr data-aos="fade-left" data-aos-duration="1000" class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-
-
-
-<div data-aos="fade-up" data-aos-duration="1000" class="wp-block-media-text is-vertically-aligned-center" style="grid-template-columns:17% auto">
-<figure class="wp-block-media-text__media"><img decoding="async" loading="lazy" width="1024" height="964" src="./wp-content/uploads/2023/10/usm-1024x964.png" alt="" class="wp-image-142 size-full" srcset="./wp-content/uploads/2023/10/usm-1024x964.png 1024w, ./wp-content/uploads/2023/10/usm-300x283.png 300w, ./wp-content/uploads/2023/10/usm-768x723.png 768w, ./wp-content/uploads/2023/10/usm-1200x1130.png 1200w, ./wp-content/uploads/2023/10/usm.png 1411w" sizes="(max-width: 1024px) 100vw, 1024px"></figure><div class="wp-block-media-text__content">
-<b>Teknik Informatika ● Universitas Semarang<br> 2019 &#8211; 2023</b>
-<ul>
-<li>IPK : 3.94</li>
-<li>Tugas Akhir : Implementasi Load Balancer Service Menggunakan Kubernetes di Sistem Operasi Linux</li>
-</ul>
-</div>
-</div>
-
-
-
-<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
-</div>
-</div>
-
-
-
-<div class="wp-block-columns is-layout-flex wp-container-17 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<h3 data-aos="fade-left" data-aos-duration="1000" class="wp-block-heading" id="sertif">Lisensi &amp; sertifikasi</h3>
-
-
-
-<hr data-aos="fade-left" data-aos-duration="2000" class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-
-
-
-<div data-aos="fade-up" data-aos-duration="1000" class="wp-block-media-text is-vertically-aligned-top" style="grid-template-columns:15% auto">
-<figure class="wp-block-media-text__media"><img decoding="async" loading="lazy" width="512" height="510" src="./wp-content/uploads/2023/10/512px-Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg_.png" alt="" class="wp-image-327 size-full" srcset="./wp-content/uploads/2023/10/512px-Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg_.png 512w, ./wp-content/uploads/2023/10/512px-Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg_-300x300.png 300w, ./wp-content/uploads/2023/10/512px-Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg_-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"></figure><div class="wp-block-media-text__content">
-<b>Kementerian Komunikasi dan Informatika
-<ul>
-<li><a href="https://drive.google.com/file/d/1b3Grkt1Kb3iWdpSyOnn-tkuXOGSBzHlE/view?usp=sharing" target="newtab" rel="noopener">Junior Network Administrator &#8211; 2021</a></li>
-<li><a href="https://drive.google.com/file/d/1l7_4009BRKXdX_3y6VdFvYIuVr1s_ExQ/view?usp=sharing" target="newtab" rel="noopener">Pelatihan IT Support &#8211; 2023</a></li>
-</ul>
-</b>
-</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-default">
-
-
-
-<div data-aos="fade-up" data-aos-duration="1000" class="wp-block-media-text is-vertically-aligned-top" style="grid-template-columns:15% auto">
-<figure class="wp-block-media-text__media"><img decoding="async" loading="lazy" width="1024" height="1024" src="./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-1024x1024.jpg" alt="" class="wp-image-288 size-full" srcset="./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-1024x1024.jpg 1024w, ./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-300x300.jpg 300w, ./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-150x150.jpg 150w, ./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-768x768.jpg 768w, ./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-1200x1200.jpg 1200w, ./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq.jpg 1238w" sizes="(max-width: 1024px) 100vw, 1024px"></figure><div class="wp-block-media-text__content">
-<b>DevOps Engineer Learning Path ● Dicoding Indonesia<br> 2023
-<ul>
-<li><a href="https://www.dicoding.com/certificates/MRZMQQW8NPYQ" target="newtab" rel="noopener">Belajar Dasar-Dasar DevOps</a></li>
-<li><a href="https://www.dicoding.com/certificates/81P237NDQXOY" target="newtab" rel="noopener">Belajar Jaringan Komputer untuk Pemula</a></li>
-<li><a href="https://www.dicoding.com/certificates/JLX1D95N2Z72" target="newtab" rel="noopener">Menjadi Linux System Administrator</a></li>
-<li><a href="https://www.dicoding.com/certificates/JLX1D53OJZ72" target="newtab" rel="noopener">Belajar Implementasi CI/CD</a></li>
-<li><a href="https://www.dicoding.com/certificates/KEXLLVEWYXG2" target="newtab" rel="noopener">Belajar Membangun Arsitektur Microservices
-</a></li>
-</ul>
-</b>
-</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-default">
-
-
-
-<div data-aos="fade-up" data-aos-duration="1000" class="wp-block-media-text is-vertically-aligned-top" style="grid-template-columns:15% auto">
-<figure class="wp-block-media-text__media"><img decoding="async" loading="lazy" width="1024" height="1024" src="./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-1024x1024.png" alt="" class="wp-image-339 size-full" srcset="./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-1024x1024.png 1024w, ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-300x300.png 300w, ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-150x150.png 150w, ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-768x768.png 768w, ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-1536x1536.png 1536w, ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-1200x1200.png 1200w, ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab.png 1800w" sizes="(max-width: 1024px) 100vw, 1024px"></figure><div class="wp-block-media-text__content">
-<b>Beasiswa DevOps Engineer Kelas Menengah dan Mahir ● DBS Foundation Coding Camp<br> 2023
-<ul>
-<li>
-<a href="https://drive.google.com/file/d/1Buv-wGIDWQ8vJzsD3xUSjN-rtak1LQAd/view?usp=sharing" target="newtab" rel="noopener">DevOps Engineer Intermediate Level</a> (Sertifikat Kelulusan)</li>
-<li>
-<a href="https://drive.google.com/file/d/1Buv-wGIDWQ8vJzsD3xUSjN-rtak1LQAd/view?usp=sharing" target="newtab" rel="noopener">DevOps Engineer Advanced Level</a> (Sertifikat Kelulusan)</li>
-
-</ul>
-</b>
-</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity">
-
-
-
-<div data-aos="fade-up" data-aos-duration="1000" class="wp-block-media-text is-vertically-aligned-top" style="grid-template-columns:15% auto">
-<figure class="wp-block-media-text__media"><img decoding="async" loading="lazy" width="600" height="600" src="./wp-content/uploads/2023/10/600px-Coursera-Logo_600x600.svg_.png" alt="" class="wp-image-311 size-full" srcset="./wp-content/uploads/2023/10/600px-Coursera-Logo_600x600.svg_.png 600w, ./wp-content/uploads/2023/10/600px-Coursera-Logo_600x600.svg_-300x300.png 300w, ./wp-content/uploads/2023/10/600px-Coursera-Logo_600x600.svg_-150x150.png 150w" sizes="(max-width: 600px) 100vw, 600px"></figure><div class="wp-block-media-text__content">
-<b>IT Support Google Professional Certificate ● Coursera<br> 2023
-<ul>
-<li><a href="https://www.coursera.org/account/accomplishments/certificate/LGAFJ6H4V8WH" target="newtab" rel="noopener">Dasar-Dasar Dukungan Teknis</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/certificate/EGW4CE7GRKST" target="newtab" rel="noopener">Seluk Beluk Jaringan Komputer</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/certificate/SJEDNYKZ9G8Y" target="newtab" rel="noopener">Sistem Operasi dan Anda: Menjadi Pengguna yang Berdaya</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/certificate/22VZD8QDNMSX" target="newtab" rel="noopener">Administrasi Sistem dan Layanan Infrastruktur TI</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/certificate/QWGK93QQEP6Q" target="newtab" rel="noopener">Keamanan IT: Pertahanan terhadap Kejahatan Digital
-</a></li>
-<li>
-<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/YPVZ9SJXEMJW" target="newtab" rel="noopener">IT Support Google
-</a> (Sertifikat Spesialisasi)</li>
-</ul>
-</b>
-</div>
-</div>
-</div>
-</div>
-
-
-
-<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-columns is-layout-flex wp-container-21 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<h3 data-aos="fade-left" data-aos-duration="1000" class="wp-block-heading" id="project">Project</h3>
-
-
-
-<hr data-aos="fade-left" data-aos-duration="2000" class="wp-block-separator has-alpha-channel-opacity is-style-wide">
-
-
-
-<div class="wp-block-cover aligncenter is-light">
-<span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#ffffff"></span><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
-<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top is-image-fill" style="grid-template-columns:52% auto">
-<figure data-aos="fade-right" data-aos-duration="1000" class="wp-block-media-text__media" style="background-image:url(./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1.jpg);background-position:53% 52%"><img decoding="async" loading="lazy" width="1024" height="1024" src="./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1.jpg" alt="" class="wp-image-358 size-full" srcset="./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1.jpg 1024w, ./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1-300x300.jpg 300w, ./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1-150x150.jpg 150w, ./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1-768x768.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px"></figure><div class="wp-block-media-text__content">
-<h2 data-aos="fade-left" data-aos-duration="1000" class="wp-block-heading has-text-color" style="color:#000000;font-size:32px">Website Taman Apotik Hidup Desa Krapyak Semarang Barat</h2>
-
-
-
-<p class="has-text-color" style="color:#000000;font-size:17px" data-aos="fade-left" data-aos-duration="2000" >Website ini dibuat untuk memenuhi tanggung jawab Proker Individu KKN(Kuliah Kerja Nyata) dan juga dengan tujuan Website yang telah dibuat ini dapat bermanfaat bagi masyarakat RW 05 atau RW lain (Kelurahan Krapyak).</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-18 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://cobrasan86.github.io/apotekhidup-krapyak/" target="_blank" rel="noreferrer noopener" data-aos="zoom-in" data-aos-duration="1000">Link website</a></div>
-
-
-
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://github.com/cobrasan86/apotekhidup-krapyak" target="_blank" rel="noreferrer noopener" data-aos="zoom-in" data-aos-duration="1000">Link repository</a></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-		
-		
-	<!-- END .entry-content -->
-	</article>
-
-		
-
-			<!-- END .sixteen columns -->
-			</section>
-
-		
-		<!-- END .content -->
-		</div>
-
-	<!-- END .row -->
-	</div>
-
-<!-- END .post class -->
-</div>
-
-
-<!-- END .container -->
-</main>
-
-<!-- BEGIN .footer -->
-<footer class="footer" role="contentinfo">
-
-	
-	<!-- BEGIN .row -->
-	<div class="row">
-
-		<!-- BEGIN .content -->
-		<div class="content">
-
-			<!-- BEGIN .footer-information -->
-			<div class="footer-information">
-
-				<div class="align-left">
-
-					<p>Copyright &copy; 2023 &middot; All Rights Reserved &middot; Cobrasan86 | Rizky Hananta</p>
-
-
-				</div>
-
-				
-				<nav class="align-right" role="navigation" aria-label="Social Navigation">
-
-					<div class="social-menu"><ul id="menu-sosmed-1" class="social-icons">
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133"><a href="https://www.youtube.com/channel/UC_ZbVznQZdP-sqoCyPo9jSw"><span class="screen-reader-text">Sobat Tekno Channel</span></a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135"><a href="https://www.linkedin.com/in/rizkyhananta99/"><span class="screen-reader-text">LinkedIn</span></a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137"><a href="https://github.com/cobrasan86"><span class="screen-reader-text">Github</span></a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-304"><a href="mailto:rizkyhananta99@gmail.com"><span class="screen-reader-text">Email</span></a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-306"><a href="https://wa.me/6285879791766"><span class="screen-reader-text">WA</span></a></li>
-</ul></div>
-				</nav>
-
-				
-			<!-- END .footer-information -->
-			</div>
-
-		<!-- END .content -->
-		</div>
-
-	<!-- END .row -->
-	</div>
-
-<!-- END .footer -->
-</footer>
-
-<!-- END #wrapper -->
-</div>
-
-<style id="core-block-supports-inline-css" type="text/css">.wp-container-18.wp-container-18{justify-content:center;}.wp-container-2.wp-container-2,.wp-container-7.wp-container-7,.wp-container-11.wp-container-11,.wp-container-13.wp-container-13,.wp-container-15.wp-container-15,.wp-container-17.wp-container-17,.wp-container-21.wp-container-21{flex-wrap:nowrap;}</style>
-<script type="text/javascript" src="./wp-content/themes/profile-lite/js/jquery.sidr.js?ver=1.0" id="jquery-sidr-js"></script>
-<script type="text/javascript" src="./wp-content/themes/profile-lite/js/jquery.fitvids.js?ver=1.0" id="jquery-fitvids-js"></script>
-<script type="text/javascript" src="./wp-content/themes/profile-lite/js/jquery.bgBrightness.js?ver=1.0" id="jquery-brightness-js"></script>
-<script type="text/javascript" src="./wp-content/themes/profile-lite/js/jquery.custom.js?ver=1.0" id="profile-lite-custom-js"></script>
-
-</body>
-
-<a href="#" class="topbutton"></a>
+        .topnav a.icon {
+          float: right;
+          display: block;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .topnav.responsive {
+          position: none;
+        }
+        .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+
+    <title>
+      Cobrasan86 | Rizky Hananta &#8211; Smart Endpoints and Dumb Pipes
+    </title>
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Cobrasan86 | Rizky Hananta &raquo; Feed"
+      href="./index.php/feed/index.html"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Cobrasan86 | Rizky Hananta &raquo; Umpan Komentar"
+      href="./index.php/comments/feed/index.html"
+    />
+    <script type="text/javascript">
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            ".\/\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.2",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(e, "🏳️‍⚧️", "🏳️​⚧️")
+                ? !1
+                : !n(e, "🇺🇳", "🇺​🇳") && !n(e, "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
+            case "emoji":
+              return !n(e, "🫱🏻‍🫲🏿", "🫱🏻​🫲🏿");
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="./wp-includes/css/dist/block-library/style.min.css?ver=6.3.2"
+      type="text/css"
+      media="all"
+    />
+    <style id="wp-block-library-theme-inline-css" type="text/css">
+      .wp-block-audio figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-audio figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .wp-block-audio {
+        margin: 0 0 1em;
+      }
+      .wp-block-code {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: Menlo, Consolas, monaco, monospace;
+        padding: 0.8em 1em;
+      }
+      .wp-block-embed figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-embed figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .wp-block-embed {
+        margin: 0 0 1em;
+      }
+      .blocks-gallery-caption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .blocks-gallery-caption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .wp-block-image figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-image figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .wp-block-image {
+        margin: 0 0 1em;
+      }
+      .wp-block-pullquote {
+        border-bottom: 4px solid;
+        border-top: 4px solid;
+        color: currentColor;
+        margin-bottom: 1.75em;
+      }
+      .wp-block-pullquote cite,
+      .wp-block-pullquote footer,
+      .wp-block-pullquote__citation {
+        color: currentColor;
+        font-size: 0.8125em;
+        font-style: normal;
+        text-transform: uppercase;
+      }
+      .wp-block-quote {
+        border-left: 0.25em solid;
+        margin: 0 0 1.75em;
+        padding-left: 1em;
+      }
+      .wp-block-quote cite,
+      .wp-block-quote footer {
+        color: currentColor;
+        font-size: 0.8125em;
+        font-style: normal;
+        position: relative;
+      }
+      .wp-block-quote.has-text-align-right {
+        border-left: none;
+        border-right: 0.25em solid;
+        padding-left: 0;
+        padding-right: 1em;
+      }
+      .wp-block-quote.has-text-align-center {
+        border: none;
+        padding-left: 0;
+      }
+      .wp-block-quote.is-large,
+      .wp-block-quote.is-style-large,
+      .wp-block-quote.is-style-plain {
+        border: none;
+      }
+      .wp-block-search .wp-block-search__label {
+        font-weight: 700;
+      }
+      .wp-block-search__button {
+        border: 1px solid #ccc;
+        padding: 0.375em 0.625em;
+      }
+      :where(.wp-block-group.has-background) {
+        padding: 1.25em 2.375em;
+      }
+      .wp-block-separator.has-css-opacity {
+        opacity: 0.4;
+      }
+      .wp-block-separator {
+        border: none;
+        border-bottom: 2px solid;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .wp-block-separator.has-alpha-channel-opacity {
+        opacity: 1;
+      }
+      .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+        width: 100px;
+      }
+      .wp-block-separator.has-background:not(.is-style-dots) {
+        border-bottom: none;
+        height: 1px;
+      }
+      .wp-block-separator.has-background:not(.is-style-wide):not(
+          .is-style-dots
+        ) {
+        height: 2px;
+      }
+      .wp-block-table {
+        margin: 0 0 1em;
+      }
+      .wp-block-table td,
+      .wp-block-table th {
+        word-break: normal;
+      }
+      .wp-block-table figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-table figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .wp-block-video figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-video figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .wp-block-video {
+        margin: 0 0 1em;
+      }
+      .wp-block-template-part.has-background {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 1.25em 2.375em;
+      }
+    </style>
+    <style id="classic-theme-styles-inline-css" type="text/css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css" type="text/css">
+      body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+      body .is-layout-flow > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-flow > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-flow > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-constrained > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-constrained > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body
+        .is-layout-constrained
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      body .is-layout-flex > * {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      body .is-layout-grid > * {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      .wp-block-pullquote {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="profile-lite-style-css"
+      href="./wp-content/themes/profile-lite/style.css?ver=1.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="profile-lite-style-conditionals-css"
+      href="./wp-content/themes/profile-lite/css/style-conditionals.css?ver=1.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="profile-lite-style-mobile-css"
+      href="./wp-content/themes/profile-lite/css/style-mobile.css?ver=1.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="profile-lite-font-awesome-css"
+      href="./wp-content/themes/profile-lite/css/font-awesome.css?ver=1.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="profile-lite-fonts-css"
+      href="//fonts.googleapis.com/css?family=Raleway%3A400%2C200%2C300%2C800%2C700%2C500%2C600%2C900%2C100%7CRoboto%3A300%2C300i%2C400%2C400i%2C700%2C700i%7CRoboto+Slab%3A300%2C400%2C700%7CRoboto+Slab%3A300%2C400%2C700&#038;subset=latin%2Clatin-ext&#038;ver=1.0"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="./wp-includes/js/jquery/jquery.min.js?ver=3.7.0"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      id="jquery-migrate-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./wp-content/themes/profile-lite/js/topbutton.js?ver=6.3.2"
+      id="custom-script-js"
+    ></script>
+    <link rel="https://api.w.org/" href="./index.php/wp-json/index.html" />
+    <link
+      rel="alternate"
+      type="application/json"
+      href="./index.php/wp-json/wp/v2/pages/7/index.html"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="./xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.3.2" />
+    <link rel="canonical" href="./index.html" />
+    <link rel="shortlink" href="./index.html" />
+    <link
+      rel="alternate"
+      type="application/json+oembed"
+      href="./index.php/wp-json/oembed/1.0/embed/index.html?url=http%3A%2F%2F%2F"
+    />
+    <link
+      rel="alternate"
+      type="text/xml+oembed"
+      href="./index.php/wp-json/oembed/1.0/embed/index.html?url=http%3A%2F%2F%2F#038;format=xml"
+    />
+
+    <style>
+      #custom-header {
+        background-image: url("./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers.png");
+      }
+
+      #wrapper .site-logo,
+      #wrapper #custom-header::after {
+        background-color: #f9f9f9;
+      }
+
+      #wrapper .site-title {
+      }
+
+      #wrapper .site-description {
+        position: absolute;
+        left: -9999px;
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+
+    <style type="text/css" id="wp-custom-css">
+      .topbutton {
+        height: 50px;
+        width: 50px;
+        position: fixed;
+        right: 5px;
+        bottom: 5px;
+        z-index: 1;
+        background-image: url("./wp-content/uploads/2023/09/up.png");
+        background-repeat: no-repeat;
+        display: none;
+      }
+
+      .text-container {
+        border: 2px solid #000;
+        padding: 10px;
+        width: fit-content;
+        display: inline-block;
+        border-radius: 10px;
+      }
+
+      .small-text {
+        font-size: 12px;
+        border: 1px solid #000;
+        padding: 5px;
+        position: absolute;
+        border-radius: 20px;
+        background-color: #333c46;
+      }
+    </style>
+  </head>
+
+  <body
+    class="home page-template-default page page-id-7 wp-custom-logo wp-embed-responsive profile-has-logo profile-desc-active profile-has-social-menu profile-no-img profile-header-active profile-header-video-inactive profile-singular profile-sidebar-inactive"
+  >
+    <div class="topnav" id="myTopnav">
+      <a href="https://cobrasan86.github.io" class="active">Home</a>
+	  <a href="#awal">Ringkasan</a>
+      <a href="#skills">Skills</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#pendidikan">Pendidikan</a>
+      <a href="#sertif">Sertifikat</a>
+      <a href="#project">Project</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <!-- BEGIN #wrapper -->
+    <div id="wrapper">
+      <!-- BEGIN #header -->
+      <header id="header">
+        <!-- BEGIN #header-info -->
+        <div id="header-info">
+          <div class="site-info" data-aos="zoom-out" data-aos-duration="3000">
+            <h1 class="site-title">
+              <a href="./index.html" rel="home">Cobrasan86 | Rizky Hananta</a>
+            </h1>
+          </div>
+
+          <!-- BEGIN #nav-bar -->
+          <div id="nav-bar">
+            <!-- END #nav-bar -->
+          </div>
+
+          <!-- END #header-info -->
+        </div>
+
+        <!-- BEGIN #custom-header -->
+        <div id="custom-header">
+          <!-- BEGIN .row -->
+          <div class="row">
+            <div id="wp-custom-header" class="wp-custom-header">
+              <img
+                src="./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers.png"
+                width="1918"
+                height="1080"
+                alt=""
+                decoding="async"
+                srcset="
+                  ./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers.png          1918w,
+                  ./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers-300x169.png   300w,
+                  ./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers-1024x577.png 1024w,
+                  ./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers-768x432.png   768w,
+                  ./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers-1536x865.png 1536w,
+                  ./wp-content/uploads/2023/09/cropped-wp8383886-boruto-vs-kawaki-wallpapers-1200x676.png 1200w
+                "
+                sizes="(max-width: 1918px) 100vw, 1918px"
+                fetchpriority="high"
+              />
+            </div>
+            <!-- END .row -->
+          </div>
+
+          <!-- END #custom-header -->
+        </div>
+
+        <!-- BEGIN .site-logo -->
+        <div class="site-logo">
+          <style>
+            .custom-logo {
+              height: 212px;
+              max-height: 300px;
+              max-width: 300px;
+              width: 212px;
+            }
+          </style>
+          <a
+            href="./index.html"
+            class="custom-logo-link"
+            rel="home"
+            aria-current="page"
+            ><img
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+              width="1640"
+              height="1640"
+              src="./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1.png"
+              class="custom-logo"
+              alt="Cobrasan86 | Rizky Hananta"
+              decoding="async"
+              srcset="
+                ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1.png           1640w,
+                ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-300x300.png    300w,
+                ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-1024x1024.png 1024w,
+                ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-150x150.png    150w,
+                ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-768x768.png    768w,
+                ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-1536x1536.png 1536w,
+                ./wp-content/uploads/2023/09/cropped-replicate-prediction-awtx7k66kbdwvp5q5euzmuyyva-1-1200x1200.png 1200w
+              "
+              sizes="(max-width: 1640px) 100vw, 1640px"
+          /></a>
+
+          <nav role="navigation" aria-label="Social Navigation">
+            <div class="social-menu">
+              <ul id="menu-sosmed" class="social-icons circle-container">
+                <li
+                  data-aos="zoom-in"
+                  data-aos-duration="3000"
+                  id="menu-item-133"
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133"
+                >
+                  <a
+                    target="newtab"
+                    href="https://www.youtube.com/channel/UC_ZbVznQZdP-sqoCyPo9jSw"
+                    ><span class="screen-reader-text"
+                      >Sobat Tekno Channel</span
+                    ></a
+                  >
+                </li>
+                <li
+                  data-aos="zoom-in"
+                  data-aos-duration="4000"
+                  id="menu-item-135"
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135"
+                >
+                  <a
+                    target="newtab"
+                    href="https://www.linkedin.com/in/rizkyhananta99/"
+                    ><span class="screen-reader-text">LinkedIn</span></a
+                  >
+                </li>
+                <li
+                  data-aos="zoom-in"
+                  data-aos-duration="5000"
+                  id="menu-item-137"
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137"
+                >
+                  <a target="newtab" href="https://github.com/cobrasan86"
+                    ><span class="screen-reader-text">Github</span></a
+                  >
+                </li>
+                <li
+                  data-aos="zoom-in"
+                  data-aos-duration="6000"
+                  id="menu-item-304"
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-304"
+                >
+                  <a href="mailto:rizkyhananta99@gmail.com"
+                    ><span class="screen-reader-text">Email</span></a
+                  >
+                </li>
+                <li
+                  data-aos="zoom-in"
+                  data-aos-duration="7000"
+                  id="menu-item-306"
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-306"
+                >
+                  <a target="newtab" href="https://wa.me/6285879791766"
+                    ><span class="screen-reader-text">WA</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <!-- END .site-logo -->
+        </div>
+
+        <!-- END #header -->
+      </header>
+
+      <!-- BEGIN .container -->
+      <main class="container" role="main">
+        <!-- BEGIN .post class -->
+        <div class="post-7 page type-page status-publish hentry" id="page-7">
+          <!-- BEGIN .row -->
+          <div class="row">
+            <!-- BEGIN .content -->
+            <div class="content">
+              <!-- BEGIN .sixteen columns -->
+              <section class="sixteen columns">
+                <!-- BEGIN .entry-content -->
+                <article class="entry-content">
+                  <div
+                    class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
+                  >
+                    <div class="wp-block-group__inner-container">
+                      <div
+                        class="wp-block-columns is-layout-flex wp-container-2 wp-block-columns-is-layout-flex"
+                      >
+                        <div
+                          class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                          style="flex-basis: 100%"
+                          id="awal"
+                        >
+                          <blockquote class="wp-block-quote is-style-plain">
+                            <p
+                              class="has-text-align-center has-large-font-size"
+                              style="
+                                font-style: normal;
+                                font-weight: 800;
+                                text-transform: uppercase;
+                              "
+                              class="site-info"
+                              data-aos="fade-right"
+                              data-aos-duration="1000"
+                            >
+                              Smart Endpoints and Dumb Pipes
+                            </p>
+
+                            <hr
+                              class="wp-block-separator has-text-color has-vivid-red-color has-alpha-channel-opacity has-vivid-red-background-color has-background is-style-dots"
+                            />
+                          </blockquote>
+
+                          <h3 data-aos="fade-left" data-aos-duration="1000">
+                            Ringkasan
+                          </h3>
+                          <hr data-aos="fade-left" data-aos-duration="1000" />
+                          <p
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            align="justify"
+                          >
+                            Lulusan S1-Teknik Informatika dari Universitas
+                            Semarang dengan IPK 3.94 yang memiliki minat dan
+                            antusiasme tinggi dalam bidang DevOps, Networking
+                            dan Linux. Memiliki kemampuan mengoperasikan Sistem
+                            Operasi Linux, administrasi sistem dengan Sistem
+                            Operasi Linux, melakukan instalasi dan konfigurasi
+                            jaringan komputer, implementasi pengembangan sistem
+                            berbasis DevOps seperti implementasi CI/CD dan
+                            Membangun arsitektur microservices, mampu melakukan
+                            maintenance sistem, monitoring dan logging sistem,
+                            mampu menganalisa dan pemecahan masalah IT. Saat ini
+                            juga menjadi content creator pada Channel YouTube
+                            pribadi di Channel Sobat Tekno Channel.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr
+                    class="wp-block-separator has-text-color has-vivid-red-color has-alpha-channel-opacity has-vivid-red-background-color has-background is-style-dots"
+                  />
+
+                  <h3
+                    class="wp-block-heading"
+                    id="skills"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                  >
+                    Skills
+                  </h3>
+
+                  <hr
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    class="wp-block-separator has-alpha-channel-opacity is-style-wide"
+                  />
+
+                  <details
+                    data-aos="zoom-in-left"
+                    data-aos-duration="1000"
+                    class="wp-block-details"
+                    open
+                  >
+                    <summary>Hard Skills</summary>
+                    <div
+                      class="wp-block-columns is-layout-flex wp-container-7 wp-block-columns-is-layout-flex"
+                    >
+                      <div
+                        class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                      >
+                        <ul>
+                          <li>Kubernetes</li>
+                          <li>Linux</li>
+                          <li>Docker</li>
+                          <li>Jenkins</li>
+                        </ul>
+                      </div>
+
+                      <div
+                        class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                      >
+                        <ul>
+                          <li>AWS</li>
+                          <li>Ansible</li>
+                          <li>Python</li>
+                          <li>Go Lang</li>
+                        </ul>
+                      </div>
+
+                      <div
+                        class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                      >
+                        <ul>
+                          <li>Git</li>
+                          <li>Bash Scripting</li>
+                          <li>Computer Networking</li>
+                          <li>Monitoring and Loggin</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </details>
+
+                  <hr
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    class="wp-block-separator has-alpha-channel-opacity"
+                  />
+
+                  <details
+                    data-aos="zoom-in-right"
+                    data-aos-duration="1000"
+                    class="wp-block-details"
+                    open
+                  >
+                    <summary>Soft Skills</summary>
+                    <div
+                      class="wp-block-columns is-layout-flex wp-container-11 wp-block-columns-is-layout-flex"
+                    >
+                      <div
+                        class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                      >
+                        <ul>
+                          <li>Project Scheduling</li>
+                          <li>Communication</li>
+                          <li>Presentation</li>
+                        </ul>
+                      </div>
+
+                      <div
+                        class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                      >
+                        <ul>
+                          <li>Problem analysis</li>
+                          <li>Problem Solving</li>
+                          <li>Collaboration</li>
+                        </ul>
+                      </div>
+
+                      <div
+                        class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                      >
+                        <ul>
+                          <li>Time Management</li>
+                          <li>Innovative</li>
+                          <li>Creative</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </details>
+
+                  <div
+                    style="height: 70px"
+                    aria-hidden="true"
+                    class="wp-block-spacer"
+                  ></div>
+
+                  <div
+                    class="wp-block-columns is-layout-flex wp-container-13 wp-block-columns-is-layout-flex"
+                  >
+                    <div
+                      class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                    >
+                      <h3
+                        class="wp-block-heading"
+                        id="pengalaman"
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                      >
+                        Pengalaman
+                      </h3>
+
+                      <hr
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        class="wp-block-separator has-alpha-channel-opacity is-style-wide"
+                      />
+
+                      <div
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        class="wp-block-media-text is-vertically-aligned-center"
+                        style="grid-template-columns: 15% auto"
+                      >
+                        <figure class="wp-block-media-text__media">
+                          <img
+                            decoding="async"
+                            width="512"
+                            height="512"
+                            src="./wp-content/uploads/2023/10/bawaslu.png"
+                            alt=""
+                            class="wp-image-231 size-full"
+                            srcset="
+                              ./wp-content/uploads/2023/10/bawaslu.png         512w,
+                              ./wp-content/uploads/2023/10/bawaslu-300x300.png 300w,
+                              ./wp-content/uploads/2023/10/bawaslu-150x150.png 150w
+                            "
+                            sizes="(max-width: 512px) 100vw, 512px"
+                          />
+                        </figure>
+                        <div class="wp-block-media-text__content">
+                          <b
+                            >Website Administrator Intern ● Bawaslu Kota
+                            Semarang<br />
+                            Maret 2021 &#8211; Mei 2021</b
+                          >
+                          <ul>
+                            <li>Melakukan update tampilan pada website</li>
+                            <li>
+                              Menambahkan beberapa halaman baru pada website
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <hr
+                        class="wp-block-separator has-alpha-channel-opacity is-style-default"
+                      />
+
+                      <div
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        class="wp-block-media-text is-vertically-aligned-center"
+                        style="grid-template-columns: 15% auto"
+                      >
+                        <figure class="wp-block-media-text__media">
+                          <img
+                            decoding="async"
+                            width="774"
+                            height="1024"
+                            src="./wp-content/uploads/2023/10/upgirs-774x1024.png"
+                            alt=""
+                            class="wp-image-249 size-full"
+                            srcset="
+                              ./wp-content/uploads/2023/10/upgirs-774x1024.png  774w,
+                              ./wp-content/uploads/2023/10/upgirs-227x300.png   227w,
+                              ./wp-content/uploads/2023/10/upgirs-768x1016.png  768w,
+                              ./wp-content/uploads/2023/10/upgirs-907x1200.png  907w,
+                              ./wp-content/uploads/2023/10/upgirs.png          1116w
+                            "
+                            sizes="(max-width: 774px) 100vw, 774px"
+                          />
+                        </figure>
+                        <div class="wp-block-media-text__content">
+                          <b
+                            >Network Engineer Intern ● Universitas PGRI
+                            Semarang<br />
+                            Mei 2018 &#8211; Juli 2018</b
+                          >
+                          <ul>
+                            <li>Instalasi jaringan kabel dan nirkabel</li>
+                            <li>Troubleshooting jaringan kabel dan nirkabel</li>
+                            <li>Perawatan jaringan komputer</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    style="height: 70px"
+                    aria-hidden="true"
+                    class="wp-block-spacer"
+                  ></div>
+
+                  <div
+                    class="wp-block-columns is-layout-flex wp-container-15 wp-block-columns-is-layout-flex"
+                  >
+                    <div
+                      class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                    >
+                      <h3
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        class="wp-block-heading"
+                        id="pendidikan"
+                      >
+                        Pendidikan
+                      </h3>
+
+                      <hr
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        class="wp-block-separator has-alpha-channel-opacity is-style-wide"
+                      />
+
+                      <div
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        class="wp-block-media-text is-vertically-aligned-center"
+                        style="grid-template-columns: 17% auto"
+                      >
+                        <figure class="wp-block-media-text__media">
+                          <img
+                            decoding="async"
+                            loading="lazy"
+                            width="1024"
+                            height="964"
+                            src="./wp-content/uploads/2023/10/usm-1024x964.png"
+                            alt=""
+                            class="wp-image-142 size-full"
+                            srcset="
+                              ./wp-content/uploads/2023/10/usm-1024x964.png  1024w,
+                              ./wp-content/uploads/2023/10/usm-300x283.png    300w,
+                              ./wp-content/uploads/2023/10/usm-768x723.png    768w,
+                              ./wp-content/uploads/2023/10/usm-1200x1130.png 1200w,
+                              ./wp-content/uploads/2023/10/usm.png           1411w
+                            "
+                            sizes="(max-width: 1024px) 100vw, 1024px"
+                          />
+                        </figure>
+                        <div class="wp-block-media-text__content">
+                          <b
+                            >Teknik Informatika ● Universitas Semarang<br />
+                            2019 &#8211; 2023</b
+                          >
+                          <ul>
+                            <li>IPK : 3.94</li>
+                            <li>
+                              Tugas Akhir : Implementasi Load Balancer Service
+                              Menggunakan Kubernetes di Sistem Operasi Linux
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div
+                        style="height: 70px"
+                        aria-hidden="true"
+                        class="wp-block-spacer"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="wp-block-columns is-layout-flex wp-container-17 wp-block-columns-is-layout-flex"
+                  >
+                    <div
+                      class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                    >
+                      <h3
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        class="wp-block-heading"
+                        id="sertif"
+                      >
+                        Lisensi &amp; sertifikasi
+                      </h3>
+
+                      <hr
+                        data-aos="fade-left"
+                        data-aos-duration="2000"
+                        class="wp-block-separator has-alpha-channel-opacity is-style-wide"
+                      />
+
+                      <div
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        class="wp-block-media-text is-vertically-aligned-top"
+                        style="grid-template-columns: 15% auto"
+                      >
+                        <figure class="wp-block-media-text__media">
+                          <img
+                            decoding="async"
+                            loading="lazy"
+                            width="512"
+                            height="510"
+                            src="./wp-content/uploads/2023/10/512px-Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg_.png"
+                            alt=""
+                            class="wp-image-327 size-full"
+                            srcset="
+                              ./wp-content/uploads/2023/10/512px-Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg_.png         512w,
+                              ./wp-content/uploads/2023/10/512px-Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg_-300x300.png 300w,
+                              ./wp-content/uploads/2023/10/512px-Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg_-150x150.png 150w
+                            "
+                            sizes="(max-width: 512px) 100vw, 512px"
+                          />
+                        </figure>
+                        <div class="wp-block-media-text__content">
+                          <b
+                            >Kementerian Komunikasi dan Informatika
+                            <ul>
+                              <li>
+                                <a
+                                  href="https://drive.google.com/file/d/1b3Grkt1Kb3iWdpSyOnn-tkuXOGSBzHlE/view?usp=sharing"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Junior Network Administrator &#8211; 2021</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="https://drive.google.com/file/d/1l7_4009BRKXdX_3y6VdFvYIuVr1s_ExQ/view?usp=sharing"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Pelatihan IT Support &#8211; 2023</a
+                                >
+                              </li>
+                            </ul>
+                          </b>
+                        </div>
+                      </div>
+
+                      <hr
+                        class="wp-block-separator has-alpha-channel-opacity is-style-default"
+                      />
+
+                      <div
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        class="wp-block-media-text is-vertically-aligned-top"
+                        style="grid-template-columns: 15% auto"
+                      >
+                        <figure class="wp-block-media-text__media">
+                          <img
+                            decoding="async"
+                            loading="lazy"
+                            width="1024"
+                            height="1024"
+                            src="./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-1024x1024.jpg"
+                            alt=""
+                            class="wp-image-288 size-full"
+                            srcset="
+                              ./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-1024x1024.jpg 1024w,
+                              ./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-300x300.jpg    300w,
+                              ./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-150x150.jpg    150w,
+                              ./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-768x768.jpg    768w,
+                              ./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq-1200x1200.jpg 1200w,
+                              ./wp-content/uploads/2023/10/dicoding-logos-idvBszaObq.jpg           1238w
+                            "
+                            sizes="(max-width: 1024px) 100vw, 1024px"
+                          />
+                        </figure>
+                        <div class="wp-block-media-text__content">
+                          <b
+                            >DevOps Engineer Learning Path ● Dicoding
+                            Indonesia<br />
+                            2023
+                            <ul>
+                              <li>
+                                <a
+                                  href="https://www.dicoding.com/certificates/MRZMQQW8NPYQ"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Belajar Dasar-Dasar DevOps</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="https://www.dicoding.com/certificates/81P237NDQXOY"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Belajar Jaringan Komputer untuk Pemula</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="https://www.dicoding.com/certificates/JLX1D95N2Z72"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Menjadi Linux System Administrator</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="https://www.dicoding.com/certificates/JLX1D53OJZ72"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Belajar Implementasi CI/CD</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="https://www.dicoding.com/certificates/KEXLLVEWYXG2"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Belajar Membangun Arsitektur Microservices
+                                </a>
+                              </li>
+                            </ul>
+                          </b>
+                        </div>
+                      </div>
+
+                      <hr
+                        class="wp-block-separator has-alpha-channel-opacity is-style-default"
+                      />
+
+                      <div
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        class="wp-block-media-text is-vertically-aligned-top"
+                        style="grid-template-columns: 15% auto"
+                      >
+                        <figure class="wp-block-media-text__media">
+                          <img
+                            decoding="async"
+                            loading="lazy"
+                            width="1024"
+                            height="1024"
+                            src="./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-1024x1024.png"
+                            alt=""
+                            class="wp-image-339 size-full"
+                            srcset="
+                              ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-1024x1024.png 1024w,
+                              ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-300x300.png    300w,
+                              ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-150x150.png    150w,
+                              ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-768x768.png    768w,
+                              ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-1536x1536.png 1536w,
+                              ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab-1200x1200.png 1200w,
+                              ./wp-content/uploads/2023/10/2019031210270731bd0f0ab4ce82316f450ee7fcc722ab.png           1800w
+                            "
+                            sizes="(max-width: 1024px) 100vw, 1024px"
+                          />
+                        </figure>
+                        <div class="wp-block-media-text__content">
+                          <b
+                            >Beasiswa DevOps Engineer Kelas Menengah dan Mahir ●
+                            DBS Foundation Coding Camp<br />
+                            2023
+                            <ul>
+                              <li>
+                                <a
+                                  href="https://drive.google.com/file/d/1Buv-wGIDWQ8vJzsD3xUSjN-rtak1LQAd/view?usp=sharing"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >DevOps Engineer Intermediate Level</a
+                                >
+                                (Sertifikat Kelulusan)
+                              </li>
+                              <li>
+                                <a
+                                  href="https://drive.google.com/file/d/1Buv-wGIDWQ8vJzsD3xUSjN-rtak1LQAd/view?usp=sharing"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >DevOps Engineer Advanced Level</a
+                                >
+                                (Sertifikat Kelulusan)
+                              </li>
+                            </ul>
+                          </b>
+                        </div>
+                      </div>
+
+                      <hr
+                        class="wp-block-separator has-alpha-channel-opacity"
+                      />
+
+                      <div
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        class="wp-block-media-text is-vertically-aligned-top"
+                        style="grid-template-columns: 15% auto"
+                      >
+                        <figure class="wp-block-media-text__media">
+                          <img
+                            decoding="async"
+                            loading="lazy"
+                            width="600"
+                            height="600"
+                            src="./wp-content/uploads/2023/10/600px-Coursera-Logo_600x600.svg_.png"
+                            alt=""
+                            class="wp-image-311 size-full"
+                            srcset="
+                              ./wp-content/uploads/2023/10/600px-Coursera-Logo_600x600.svg_.png         600w,
+                              ./wp-content/uploads/2023/10/600px-Coursera-Logo_600x600.svg_-300x300.png 300w,
+                              ./wp-content/uploads/2023/10/600px-Coursera-Logo_600x600.svg_-150x150.png 150w
+                            "
+                            sizes="(max-width: 600px) 100vw, 600px"
+                          />
+                        </figure>
+                        <div class="wp-block-media-text__content">
+                          <b
+                            >IT Support Google Professional Certificate ●
+                            Coursera<br />
+                            2023
+                            <ul>
+                              <li>
+                                <a
+                                  href="https://www.coursera.org/account/accomplishments/certificate/LGAFJ6H4V8WH"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Dasar-Dasar Dukungan Teknis</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="https://www.coursera.org/account/accomplishments/certificate/EGW4CE7GRKST"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Seluk Beluk Jaringan Komputer</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="https://www.coursera.org/account/accomplishments/certificate/SJEDNYKZ9G8Y"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Sistem Operasi dan Anda: Menjadi Pengguna
+                                  yang Berdaya</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="https://www.coursera.org/account/accomplishments/certificate/22VZD8QDNMSX"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Administrasi Sistem dan Layanan Infrastruktur
+                                  TI</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="https://www.coursera.org/account/accomplishments/certificate/QWGK93QQEP6Q"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >Keamanan IT: Pertahanan terhadap Kejahatan
+                                  Digital
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  href="https://www.coursera.org/account/accomplishments/specialization/certificate/YPVZ9SJXEMJW"
+                                  target="newtab"
+                                  rel="noopener"
+                                  >IT Support Google
+                                </a>
+                                (Sertifikat Spesialisasi)
+                              </li>
+                            </ul>
+                          </b>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    style="height: 70px"
+                    aria-hidden="true"
+                    class="wp-block-spacer"
+                  ></div>
+
+                  <div
+                    class="wp-block-columns is-layout-flex wp-container-21 wp-block-columns-is-layout-flex"
+                  >
+                    <div
+                      class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                    >
+                      <h3
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        class="wp-block-heading"
+                        id="project"
+                      >
+                        Project
+                      </h3>
+
+                      <hr
+                        data-aos="fade-left"
+                        data-aos-duration="2000"
+                        class="wp-block-separator has-alpha-channel-opacity is-style-wide"
+                      />
+
+                      <div class="wp-block-cover aligncenter is-light">
+                        <span
+                          aria-hidden="true"
+                          class="wp-block-cover__background has-background-dim-100 has-background-dim"
+                          style="background-color: #ffffff"
+                        ></span>
+                        <div
+                          class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow"
+                        >
+                          <div
+                            class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top is-image-fill"
+                            style="grid-template-columns: 52% auto"
+                          >
+                            <figure
+                              data-aos="fade-right"
+                              data-aos-duration="1000"
+                              class="wp-block-media-text__media"
+                              style="
+                                background-image: url(./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1.jpg);
+                                background-position: 53% 52%;
+                              "
+                            >
+                              <img
+                                decoding="async"
+                                loading="lazy"
+                                width="1024"
+                                height="1024"
+                                src="./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1.jpg"
+                                alt=""
+                                class="wp-image-358 size-full"
+                                srcset="
+                                  ./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1.jpg         1024w,
+                                  ./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1-300x300.jpg  300w,
+                                  ./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1-150x150.jpg  150w,
+                                  ./wp-content/uploads/2023/10/IMG20230204095837_11zon-1024x1024-1-768x768.jpg  768w
+                                "
+                                sizes="(max-width: 1024px) 100vw, 1024px"
+                              />
+                            </figure>
+                            <div class="wp-block-media-text__content">
+                              <h2
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                class="wp-block-heading has-text-color"
+                                style="color: #000000; font-size: 32px"
+                              >
+                                Website Taman Apotik Hidup Desa Krapyak Semarang
+                                Barat
+                              </h2>
+
+                              <p
+                                class="has-text-color"
+                                style="color: #000000; font-size: 17px"
+                                data-aos="fade-left"
+                                data-aos-duration="2000"
+                              >
+                                Website ini dibuat untuk memenuhi tanggung jawab
+                                Proker Individu KKN(Kuliah Kerja Nyata) dan juga
+                                dengan tujuan Website yang telah dibuat ini
+                                dapat bermanfaat bagi masyarakat RW 05 atau RW
+                                lain (Kelurahan Krapyak).
+                              </p>
+
+                              <div
+                                class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-18 wp-block-buttons-is-layout-flex"
+                              >
+                                <div
+                                  class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"
+                                >
+                                  <a
+                                    class="wp-block-button__link wp-element-button"
+                                    href="https://cobrasan86.github.io/apotekhidup-krapyak/"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                    data-aos="zoom-in"
+                                    data-aos-duration="1000"
+                                    >Link website</a
+                                  >
+                                </div>
+
+                                <div
+                                  class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"
+                                >
+                                  <a
+                                    class="wp-block-button__link wp-element-button"
+                                    href="https://github.com/cobrasan86/apotekhidup-krapyak"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                    data-aos="zoom-in"
+                                    data-aos-duration="1000"
+                                    >Link repository</a
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- END .entry-content -->
+                </article>
+
+                <!-- END .sixteen columns -->
+              </section>
+
+              <!-- END .content -->
+            </div>
+
+            <!-- END .row -->
+          </div>
+
+          <!-- END .post class -->
+        </div>
+
+        <!-- END .container -->
+      </main>
+
+      <!-- BEGIN .footer -->
+      <footer class="footer" role="contentinfo">
+        <!-- BEGIN .row -->
+        <div class="row">
+          <!-- BEGIN .content -->
+          <div class="content">
+            <!-- BEGIN .footer-information -->
+            <div class="footer-information">
+              <div class="align-left">
+                <p>
+                  Copyright &copy; 2023 &middot; All Rights Reserved &middot;
+                  Cobrasan86 | Rizky Hananta
+                </p>
+              </div>
+
+              <nav
+                class="align-right"
+                role="navigation"
+                aria-label="Social Navigation"
+              >
+                <div class="social-menu">
+                  <ul id="menu-sosmed-1" class="social-icons">
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133"
+                    >
+                      <a
+                        href="https://www.youtube.com/channel/UC_ZbVznQZdP-sqoCyPo9jSw"
+                        ><span class="screen-reader-text"
+                          >Sobat Tekno Channel</span
+                        ></a
+                      >
+                    </li>
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135"
+                    >
+                      <a href="https://www.linkedin.com/in/rizkyhananta99/"
+                        ><span class="screen-reader-text">LinkedIn</span></a
+                      >
+                    </li>
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137"
+                    >
+                      <a href="https://github.com/cobrasan86"
+                        ><span class="screen-reader-text">Github</span></a
+                      >
+                    </li>
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-304"
+                    >
+                      <a href="mailto:rizkyhananta99@gmail.com"
+                        ><span class="screen-reader-text">Email</span></a
+                      >
+                    </li>
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-306"
+                    >
+                      <a href="https://wa.me/6285879791766"
+                        ><span class="screen-reader-text">WA</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+              <!-- END .footer-information -->
+            </div>
+
+            <!-- END .content -->
+          </div>
+
+          <!-- END .row -->
+        </div>
+
+        <!-- END .footer -->
+      </footer>
+
+      <!-- END #wrapper -->
+    </div>
+
+    <style id="core-block-supports-inline-css" type="text/css">
+      .wp-container-18.wp-container-18 {
+        justify-content: center;
+      }
+      .wp-container-2.wp-container-2,
+      .wp-container-7.wp-container-7,
+      .wp-container-11.wp-container-11,
+      .wp-container-13.wp-container-13,
+      .wp-container-15.wp-container-15,
+      .wp-container-17.wp-container-17,
+      .wp-container-21.wp-container-21 {
+        flex-wrap: nowrap;
+      }
+    </style>
+    <script
+      type="text/javascript"
+      src="./wp-content/themes/profile-lite/js/jquery.sidr.js?ver=1.0"
+      id="jquery-sidr-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./wp-content/themes/profile-lite/js/jquery.fitvids.js?ver=1.0"
+      id="jquery-fitvids-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./wp-content/themes/profile-lite/js/jquery.bgBrightness.js?ver=1.0"
+      id="jquery-brightness-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./wp-content/themes/profile-lite/js/jquery.custom.js?ver=1.0"
+      id="profile-lite-custom-js"
+    ></script>
+  </body>
+
+  <a href="#" class="topbutton"></a>
 </html>
