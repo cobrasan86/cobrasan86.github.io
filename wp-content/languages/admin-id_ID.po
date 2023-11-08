@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.3.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-13 07:46:25+0000\n"
+"PO-Revision-Date: 2023-11-07 01:31:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6651,6 +6651,10 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/common-wordpress-e
 #: wp-admin/includes/user.php:720 wp-admin/includes/user.php:742
 msgid "Invalid URL format."
 msgstr "Format URL tidak valid."
+
+#: wp-admin/update-core.php:1057
+msgid "Updates may take several minutes to complete. If there is no feedback after 5 minutes, or if there are errors please refer to the Help section above."
+msgstr "Pembaruan mungkin memerlukan waktu beberapa menit untuk diselesaikan. Jika tidak ada umpan balik setelah 5 menit, atau jika ada kesalahan silakan merujuk ke bagian Bantuan di atas."
 
 #: wp-admin/includes/media.php:2828 wp-admin/includes/nav-menu.php:528
 #: wp-admin/includes/nav-menu.php:900
@@ -15994,3 +15998,161 @@ msgstr "Versi WordPress Anda adalah %1$s, namun versi plugin baru membutuhkan %2
 #: wp-admin/includes/class-plugin-upgrader.php:369
 msgid "The PHP version on your server is %1$s, however the new plugin version requires %2$s."
 msgstr "Versi PHP di server Anda adalah %1$s, namun versi plugin baru membutuhkan %2$s."
+
+#: wp-admin/includes/image-edit.php:249
+msgid "Starting Coordinates:"
+msgstr "Koordinat Awal:"
+
+#: wp-admin/includes/image-edit.php:100
+msgid "Save Edits"
+msgstr "Simpan Editan"
+
+#: wp-admin/includes/class-wp-users-list-table.php:396
+#: wp-admin/includes/class-wp-ms-users-list-table.php:215
+msgid "Table ordered by Username."
+msgstr "Tabel diurutkan berdasarkan Nama Pengguna."
+
+#: wp-admin/includes/class-wp-terms-list-table.php:224
+msgid "Table ordered by Links."
+msgstr "Tabel diurutkan berdasarkan Tautan."
+
+#: wp-admin/includes/class-wp-terms-list-table.php:223
+msgid "Table ordered by Posts Count."
+msgstr "Tabel diurutkan berdasarkan Jumlah Postingan."
+
+#: wp-admin/includes/class-wp-site-health.php:2786
+msgid "Plugin and theme temporary backup directory access"
+msgstr "Akses direktori cadangan sementara plugin dan tema"
+
+#: wp-admin/includes/class-wp-links-list-table.php:148
+msgid "Table ordered by Visibility."
+msgstr "Tabel diurutkan berdasarkan Visibilitas."
+
+#: wp-admin/includes/class-wp-links-list-table.php:147
+msgid "Table ordered by URL."
+msgstr "Tabel diurutkan berdasarkan URL."
+
+#: wp-admin/includes/class-wp-links-list-table.php:146
+#: wp-admin/includes/class-wp-terms-list-table.php:216
+#: wp-admin/includes/class-wp-ms-users-list-table.php:216
+msgid "Table ordered by Name."
+msgstr "Tabel diurutkan berdasarkan Nama."
+
+#: wp-admin/contribute.php:102
+msgid "Finding the area that aligns with your skills and interests is the first step toward meaningful contribution. With more than 20 Make WordPress teams working on different parts of the open source WordPress project, there&#8217;s a place for everyone, no matter what your skill set is."
+msgstr "Menemukan bidang yang sesuai dengan keahlian dan minat Anda adalah langkah pertama menuju kontribusi yang berarti. Dengan lebih dari 20 tim Make WordPress yang mengerjakan berbagai bagian proyek WordPress sumber terbuka, selalu ada tempat untuk semua orang, apa pun keahlian Anda."
+
+#: wp-admin/contribute.php:101
+msgid "Shape the future of the web with WordPress"
+msgstr "Bentuk masa depan web dengan WordPress"
+
+#: wp-admin/contribute.php:69
+msgid "<strong>Lend</strong> your creative imagination to the WordPress UI design."
+msgstr "<strong>Pinjamkan</strong> imajinasi kreatif Anda ke desain UI WordPress."
+
+#: wp-admin/contribute.php:60
+msgid "WordPress may thrive on technical contributions, but you don&#8217;t have to code to contribute. Here are some of the ways you can make an impact without writing a single line of code:"
+msgstr "WordPress mungkin berkembang dalam hal kontribusi teknis, tetapi Anda tidak perlu membuat kode untuk berkontribusi. Berikut adalah beberapa cara Anda dapat membuat dampak tanpa menulis satu baris kode pun:"
+
+#: wp-admin/contribute.php:51
+msgid "Apply your skills or learn new ones."
+msgstr "Terapkan keterampilan Anda atau pelajari yang baru."
+
+#. translators: %s: wp-content/upgrade-temp-backup/themes
+#: wp-admin/includes/class-wp-site-health.php:2070
+msgid "The %s directory exists but is not writable. This directory is used to improve the stability of theme updates. Please make sure the server has write permissions to this directory."
+msgstr "Direktori %s ada tetapi tidak dapat ditulis. Direktori ini digunakan untuk meningkatkan stabilitas pembaruan tema. Harap pastikan server memiliki izin menulis ke direktori ini."
+
+#. translators: %s: wp-content/upgrade-temp-backup/plugins
+#: wp-admin/includes/class-wp-site-health.php:2059
+msgid "The %s directory exists but is not writable. This directory is used to improve the stability of plugin updates. Please make sure the server has write permissions to this directory."
+msgstr "Direktori %s ada tetapi tidak dapat ditulis. Direktori ini digunakan untuk meningkatkan stabilitas pembaruan plugin. Harap pastikan server memiliki izin menulis ke direktori ini."
+
+#: wp-admin/includes/class-wp-site-health.php:2056
+msgid "Plugin temporary backup directory exists but is not writable"
+msgstr "Direktori cadangan sementara plugin ada tetapi tidak dapat ditulisi"
+
+#. translators: 1: wp-content/upgrade-temp-backup/plugins, 2:
+#. wp-content/upgrade-temp-backup/themes.
+#: wp-admin/includes/class-wp-site-health.php:2047
+msgid "The %1$s and %2$s directories exist but are not writable. These directories are used to improve the stability of plugin updates. Please make sure the server has write permissions to these directories."
+msgstr "Direktori %1$s dan %2$s ada tetapi tidak dapat ditulis. Direktori ini digunakan untuk meningkatkan stabilitas pembaruan plugin. Harap pastikan server memiliki izin menulis ke direktori ini."
+
+#: wp-admin/includes/class-wp-site-health.php:2044
+msgid "Plugin and theme temporary backup directories exist but are not writable"
+msgstr "Direktori cadangan sementara plugin dan tema ada tetapi tidak dapat ditulis"
+
+#. translators: %s: wp-content
+#: wp-admin/includes/class-wp-site-health.php:2026
+msgid "The %s directory cannot be located."
+msgstr "Direktori %s tidak dapat ditemukan."
+
+#: wp-admin/includes/class-wp-site-health.php:1947
+msgid "Disk space available to safely perform updates"
+msgstr "Ruang disk tersedia untuk melakukan pembaruan dengan aman"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:767
+msgid "Table ordered by Hierarchical Menu Order and Title."
+msgstr "Tabel diurutkan berdasarkan Urutan Menu Hirarki dan Judul."
+
+#: wp-admin/includes/class-wp-posts-list-table.php:767
+#: wp-admin/includes/class-wp-posts-list-table.php:776
+msgid "Table ordered by Title."
+msgstr "Tabel diurutkan berdasarkan Judul."
+
+#: wp-admin/includes/class-wp-media-list-table.php:404
+#: wp-admin/includes/class-wp-posts-list-table.php:772
+#: wp-admin/includes/class-wp-posts-list-table.php:779
+msgid "Table ordered by Date."
+msgstr "Tabel diurutkan berdasarkan Tanggal."
+
+#: wp-admin/includes/class-wp-media-list-table.php:403
+#: wp-admin/includes/class-wp-posts-list-table.php:771
+#: wp-admin/includes/class-wp-posts-list-table.php:778
+msgid "Table ordered by Comments."
+msgstr "Tabel diurutkan berdasarkan Komentar."
+
+#: wp-admin/contribute.php:47
+msgid "Join the WordPress contributor community and connect with others who are passionate about maintaining a free and open web."
+msgstr "Bergabunglah dengan komunitas kontributor WordPress dan terhubung dengan orang lain yang bersemangat memelihara web yang bebas dan terbuka."
+
+#: wp-admin/about.php:127
+msgid "WordPress 6.3 brings your content, templates, and patterns together in the Site Editor for the first time. Add pages, browse style variations, create synced patterns, and enjoy fine-tuned control over your navigation menus. No more time wasted switching across different site areas—now you can focus on what matters most. Creation to completion, all in one place."
+msgstr "WordPress 6.3 menyatukan konten, templat, dan pola Anda di Editor Situs untuk pertama kalinya. Tambahkan halaman, jelajahi variasi gaya, buat pola yang disinkronkan, dan nikmati kontrol yang disempurnakan atas menu navigasi Anda. Tidak ada lagi waktu yang terbuang untuk berpindah antar area situs yang berbeda—kini Anda dapat fokus pada hal yang paling penting. Penciptaan hingga selesai, semuanya di satu tempat."
+
+#: wp-admin/about.php:273
+msgid "Drag and drop to every content layer and delete any block you would like in the updated List View."
+msgstr "Seret dan lepas ke setiap lapisan konten dan hapus blok mana pun yang Anda inginkan dalam Tampilan Daftar yang diperbarui."
+
+#: wp-admin/about.php:227
+msgid "Experience block themes before you switch and preview the Site Editor, with options to customize directly before committing to a new theme."
+msgstr "Rasakan tema blok sebelum Anda beralih dan melihat pratinjau Editor Situs, dengan opsi untuk menyesuaikan secara langsung sebelum berkomitmen pada tema baru."
+
+#: wp-admin/about.php:212
+msgid "Incorporating more than 50 accessibility improvements across the platform, WordPress 6.3 is more accessible than ever. Improved labeling, optimized tab and arrow-key navigation, revised heading hierarchy, and new controls in the admin image editor allow those using assistive technologies to navigate more easily."
+msgstr "Menggabungkan lebih dari 50 peningkatan aksesibilitas di seluruh platform, WordPress 6.3 lebih mudah diakses dari sebelumnya. Pelabelan yang ditingkatkan, navigasi tab dan tombol panah yang dioptimalkan, hierarki judul yang direvisi, dan kontrol baru di editor gambar admin memungkinkan mereka yang menggunakan teknologi bantu untuk bernavigasi dengan lebih mudah."
+
+#: wp-admin/about.php:150
+msgid "Work faster with the Command Palette"
+msgstr "Bekerja lebih cepat dengan Command Palette"
+
+#: wp-admin/contribute.php:91
+msgid "WordPress embraces new technologies, while being committed to backward compatibility. The WordPress project uses the following languages and libraries:"
+msgstr "WordPress menerapkan teknologi baru, sekaligus berkomitmen terhadap kompatibilitas ke belakang. Proyek WordPress menggunakan bahasa dan pustaka berikut:"
+
+#. translators: %s: wp-content/upgrade-temp-backup
+#: wp-admin/includes/class-wp-site-health.php:1997
+msgid "The %s directory used to improve the stability of plugin and theme updates is writable."
+msgstr "Direktori %s yang digunakan untuk meningkatkan stabilitas pembaruan plugin dan tema dapat ditulisi."
+
+#: wp-admin/includes/class-wp-site-health.php:1989
+msgid "Plugin and theme temporary backup directory is writable"
+msgstr "Direktori cadangan sementara plugin dan tema dapat ditulisi"
+
+#: wp-admin/includes/class-wp-media-list-table.php:402
+msgid "Table ordered by Uploaded To."
+msgstr "Tabel diurutkan berdasarkan Diunggah Ke."
+
+#: wp-admin/about.php:134
+msgid "Arrange blocks in unlimited ways and save them as Patterns for use throughout your site. You can even specify whether to sync your patterns (previously referred to as “reusable blocks”) so that one change applies to all parts of your site. Or, utilize patterns as a starting point with the ability to customize each instance."
+msgstr "Atur blok dengan cara yang tidak terbatas dan simpan sebagai Pola untuk digunakan di seluruh situs Anda. Anda bahkan dapat menentukan apakah akan menyinkronkan pola Anda (sebelumnya disebut sebagai “blok yang dapat digunakan kembali”) sehingga satu perubahan berlaku untuk semua bagian situs Anda. Atau, manfaatkan pola sebagai titik awal dengan kemampuan untuk menyesuaikan spesimen."
